@@ -198,7 +198,7 @@ export default function RegisterPage() {
         Dance
       </DropdownItem>
       <DropdownItem>
-        Music
+        Musiccccc
       </DropdownItem>
       <DropdownItem>
         Instrument
