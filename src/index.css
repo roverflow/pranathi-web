@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "NewTon";
+  src: local("NewTon"),
+    url("./assets/fonts/NewtonHowardFont.ttf") format("truetype");
+}
+
+.font-face-nt {
+  font-family: "NewTon";
+}
