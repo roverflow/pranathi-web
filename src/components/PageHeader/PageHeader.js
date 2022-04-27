@@ -1,4 +1,6 @@
 import React from "react";
+import { Button } from "reactstrap";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import { Container } from "reactstrap";
@@ -19,7 +21,16 @@ export default function PageHeader() {
           <h3 className="d-none d-sm-block">
             Sit back while we create the experience of a lifetime
           </h3>
-          <h4>Content Coming Soon..</h4>
+          {/* <h4>Content Coming Soon..</h4> */}
+          <Button
+            className="btn-round"
+            color="primary"
+            type="button"
+            tag={Link}
+            to="/events"
+          >
+            Register For Our Events Now!
+          </Button>
         </div>
       </Container>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar";
-// import Footer from "components/Footer/Footer";
+import Footer from "components/Footer/Footer";
 
 const Layout = ({ children }) => {
   return (
@@ -8,7 +8,9 @@ const Layout = ({ children }) => {
       <IndexNavbar></IndexNavbar>
       <div className="wrapper">
         {children}
-        <div>{/* <Footer /> */}</div>
+        <div>
+          <Footer />
+        </div>
       </div>
     </>
   );
