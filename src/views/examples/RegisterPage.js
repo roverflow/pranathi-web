@@ -17,6 +17,9 @@
 */
 import React from "react";
 import classnames from "classnames";
+import { FaPhoneAlt, FaUserAlt, FaMailBulk, FaUserGraduate} from "react-icons/fa";
+
+
 // reactstrap components
 import {
   Button,
@@ -36,6 +39,13 @@ import {
   Container,
   Row,
   Col,
+  Dropdown,
+  DropdownToggle,
+  DropdownItem,
+  DropdownMenu,
+  ButtonDropdown
+
+
 } from "reactstrap";
 
 // core components
@@ -43,11 +53,15 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import Footer from "components/Footer/Footer.js";
 
 export default function RegisterPage() {
+
   const [squares1to6, setSquares1to6] = React.useState("");
   const [squares7and8, setSquares7and8] = React.useState("");
   const [fullNameFocus, setFullNameFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   const [passwordFocus, setPasswordFocus] = React.useState(false);
+  const [dropdownOpen, setDropdownOpen] = React.useState(false);
+  const toggle = () => setDropdownOpen(prevState => !prevState);
+
   React.useEffect(() => {
     document.body.classList.toggle("register-page");
     document.documentElement.addEventListener("mousemove", followCursor);
@@ -112,7 +126,7 @@ export default function RegisterPage() {
                         >
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
-                              <i className="tim-icons icon-single-02" />
+                              <FaUserAlt />
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
@@ -129,7 +143,7 @@ export default function RegisterPage() {
                         >
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
-                              <i className="tim-icons icon-email-85" />
+                              <FaMailBulk/>
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
@@ -146,16 +160,65 @@ export default function RegisterPage() {
                         >
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
-                              <i className="tim-icons icon-lock-circle" />
+                              <FaPhoneAlt/>
                             </InputGroupText>
                           </InputGroupAddon>
                           <Input
-                            placeholder="Password"
+                            placeholder="Phone Number"
                             type="text"
                             onFocus={(e) => setPasswordFocus(true)}
                             onBlur={(e) => setPasswordFocus(false)}
                           />
                         </InputGroup>
+                        <InputGroup
+                          className={classnames({
+                            "input-group-focus": passwordFocus,
+                          })}
+                        >
+                          <InputGroupAddon addonType="prepend">
+                            <InputGroupText>
+                              <FaUserGraduate />
+                            </InputGroupText>
+                          </InputGroupAddon>
+                          <Input
+                            placeholder="USN"
+                            type="text"
+                            onFocus={(e) => setPasswordFocus(true)}
+                            onBlur={(e) => setPasswordFocus(false)}
+                          />
+                        </InputGroup>
+                        <div className="d-flex justify-content-center p-5">
+  <Dropdown isOpen={!dropdownOpen}>
+    <DropdownToggle caret>
+      Dropdown
+    </DropdownToggle>
+    <DropdownMenu
+    >
+      <DropdownItem>
+        Dance
+      </DropdownItem>
+      <DropdownItem>
+        Music
+      </DropdownItem>
+      <DropdownItem>
+        Instrument
+      </DropdownItem>
+      <DropdownItem >
+        Gaming
+      </DropdownItem>
+      <DropdownItem>Fashion Show</DropdownItem>
+      <DropdownItem>
+        Foo Action
+      </DropdownItem>
+      <DropdownItem>
+        Bar Action
+      </DropdownItem>
+      <DropdownItem>
+        Quo Action
+      </DropdownItem>
+    </DropdownMenu>
+  </Dropdown>
+</div>
                         <FormGroup check className="text-left">
                           <Label check>
                             <Input type="checkbox" />
