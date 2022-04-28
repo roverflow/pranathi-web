@@ -7,7 +7,7 @@
 Within the download you'll find the following directories and files:
 
 ```
-Blk• Design System React
+Pranathi-web
 .
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
