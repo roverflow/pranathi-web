@@ -43,7 +43,8 @@ import {
   DropdownToggle,
   DropdownItem,
   DropdownMenu,
-  ButtonDropdown
+  ButtonDropdown,
+  DropdownButton
 
 
 } from "reactstrap";
@@ -188,9 +189,10 @@ export default function RegisterPage() {
                           />
                         </InputGroup>
                         <div className="d-flex justify-content-center p-5">
-  <Dropdown isOpen={!dropdownOpen}>
+                        <ButtonDropdown toggle={() => { setDropdownOpen(!dropdownOpen) }}
+                isOpen={dropdownOpen}>
     <DropdownToggle caret>
-      Dropdown
+      Choose Event
     </DropdownToggle>
     <DropdownMenu
     >
@@ -198,7 +200,7 @@ export default function RegisterPage() {
         Dance
       </DropdownItem>
       <DropdownItem>
-        Musiccccc
+        Music
       </DropdownItem>
       <DropdownItem>
         Instrument
@@ -208,16 +210,16 @@ export default function RegisterPage() {
       </DropdownItem>
       <DropdownItem>Fashion Show</DropdownItem>
       <DropdownItem>
-        Foo Action
+        Theatre
       </DropdownItem>
       <DropdownItem>
-        Bar Action
+        Literary
       </DropdownItem>
       <DropdownItem>
-        Quo Action
+        Fine Arts
       </DropdownItem>
     </DropdownMenu>
-  </Dropdown>
+</ButtonDropdown>
 </div>
                         <FormGroup check className="text-left">
                           <Label check>
@@ -227,7 +229,7 @@ export default function RegisterPage() {
                               href="#pablo"
                               onClick={(e) => e.preventDefault()}
                             >
-                              terms and conditions
+                              rules mentioned.
                             </a>
                             .
                           </Label>
