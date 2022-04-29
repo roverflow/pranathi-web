@@ -19,7 +19,7 @@ export default function PageHeader() {
         <div className="content-center brand">
           <h1 className="h1-seo font-face-nt">Pranathi 2k22</h1>
           <h3 className="d-none d-sm-block">
-            Sit back while we create the experience of a lifetime
+            Ode to Euphoria
           </h3>
           {/* <h4>Content Coming Soon..</h4> */}
           <Button

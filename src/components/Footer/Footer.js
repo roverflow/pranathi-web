@@ -18,7 +18,7 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BLK•</h1>
+            <h3 className="title">Pranathi•2k22</h3>
           </Col>
           <Col md="3">
             <Nav>
@@ -27,21 +27,26 @@ export default function Footer() {
                   Home
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink to="/landing-page" tag={Link}>
                   Landing
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink to="/register-page" tag={Link}>
                   Register
                 </NavLink>
               </NavItem>
               <NavItem>
+                <NavLink to="/events" tag={Link}>
+                  Events
+                </NavLink>
+              </NavItem>
+              {/* <NavItem>
                 <NavLink to="/profile-page" tag={Link}>
                   Profile
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Col>
           <Col md="3">
@@ -52,12 +57,12 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
+                <NavLink href="https://www.jyothyit.ac.in/">
                   About Us
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
+              {/* <NavItem> */}
+                {/* <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
                   Blog
                 </NavLink>
               </NavItem>
@@ -65,7 +70,7 @@ export default function Footer() {
                 <NavLink href="https://opensource.org/licenses/MIT">
                   License
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Col>
           <Col md="3">
@@ -74,11 +79,11 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://twitter.com/creativetim"
+                href="https://www.instagram.com/jit_pranathi/"
                 id="tooltip622135962"
                 target="_blank"
               >
-                <i className="fab fa-twitter" />
+                <i className="fab fa-instagram" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip622135962">
                 Follow us
@@ -86,27 +91,16 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://www.facebook.com/creativetim"
+                href="https://in.linkedin.com/school/jyothyit/"
                 id="tooltip230450801"
                 target="_blank"
               >
-                <i className="fab fa-facebook-square" />
+                <i className="fab fa-linkedin" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip230450801">
-                Like us
-              </UncontrolledTooltip>
-              <Button
-                className="btn-icon btn-neutral btn-round btn-simple"
-                color="default"
-                href="https://dribbble.com/creativetim"
-                id="tooltip318450378"
-                target="_blank"
-              >
-                <i className="fab fa-dribbble" />
-              </Button>
-              <UncontrolledTooltip delay={0} target="tooltip318450378">
                 Follow us
               </UncontrolledTooltip>
+              
             </div>
           </Col>
         </Row>
