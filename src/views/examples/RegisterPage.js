@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import classnames from "classnames";
 import {
@@ -43,14 +26,13 @@ import {
   Container,
   Row,
   Col,
-  Dropdown,
-  DropdownToggle,
-  DropdownItem,
-  DropdownMenu,
-  ButtonDropdown,
-  DropdownButton,
   Badge,
 } from "reactstrap";
+
+import { EventsData } from "pages/events/EventsData";
+
+import Autocomplete from "@mui/material/Autocomplete";
+import TextField from "@mui/material/TextField";
 
 import Layout from "Layout/Layout";
 
@@ -64,8 +46,8 @@ export default function RegisterPage() {
   const [fullNameFocus, setFullNameFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   const [passwordFocus, setPasswordFocus] = React.useState(false);
-  const [dropdownOpen, setDropdownOpen] = React.useState(false);
-  const toggle = () => setDropdownOpen((prevState) => !prevState);
+  const [value, setValue] = React.useState(EventsData[0]);
+  const [inputValue, setInputValue] = React.useState("");
 
   React.useEffect(() => {
     document.body.classList.toggle("register-page");
@@ -76,6 +58,7 @@ export default function RegisterPage() {
       document.documentElement.removeEventListener("mousemove", followCursor);
     };
   }, []);
+
   const followCursor = (event) => {
     let posX = event.clientX - window.innerWidth / 2;
     let posY = event.clientY - window.innerWidth / 6;
@@ -197,26 +180,41 @@ export default function RegisterPage() {
                             />
                           </InputGroup>
                           <div className="d-flex justify-content-center p-5">
-                            <ButtonDropdown
-                              toggle={() => {
-                                setDropdownOpen(!dropdownOpen);
+                            <Autocomplete
+                              style={{ color: "blue" }}
+                              disablePortal
+                              id="combo-box-demo"
+                              renderOption={(props, option) => {
+                                const { label, color } = option;
+                                return (
+                                  <span
+                                    {...props}
+                                    style={{ backgroundColor: "purple" }}
+                                  >
+                                    {label}
+                                  </span>
+                                );
                               }}
-                              isOpen={dropdownOpen}
-                            >
-                              <DropdownToggle caret>
-                                Choose Event
-                              </DropdownToggle>
-                              <DropdownMenu>
-                                <DropdownItem>Dance</DropdownItem>
-                                <DropdownItem>Music</DropdownItem>
-                                <DropdownItem>Instrument</DropdownItem>
-                                <DropdownItem>Gaming</DropdownItem>
-                                <DropdownItem>Fashion Show</DropdownItem>
-                                <DropdownItem>Theatre</DropdownItem>
-                                <DropdownItem>Literary</DropdownItem>
-                                <DropdownItem>Fine Arts</DropdownItem>
-                              </DropdownMenu>
-                            </ButtonDropdown>
+                              value={value}
+                              onChange={(event, newValue) => {
+                                setValue(newValue);
+                              }}
+                              inputValue={inputValue}
+                              onInputChange={(event, newInputValue) => {
+                                setInputValue(newInputValue);
+                              }}
+                              options={EventsData}
+                              groupBy={(option) => option.Category}
+                              getOptionLabel={(option) => option.Category}
+                              sx={{ width: 300 }}
+                              renderInput={(params) => (
+                                <TextField
+                                  {...params}
+                                  label="Pick your Event"
+                                  style={{ color: "black" }}
+                                />
+                              )}
+                            />
                           </div>
                           <FormGroup check className="text-left">
                             <Label check>
@@ -236,7 +234,14 @@ export default function RegisterPage() {
                         </Form>
                       </CardBody>
                       <CardFooter>
-                        <Button className="btn-round" color="primary" size="lg">
+                        <Button
+                          className="btn-round"
+                          color="primary"
+                          size="lg"
+                          onClick={() => {
+                            console.log(value);
+                          }}
+                        >
                           Register Now
                         </Button>
                       </CardFooter>
