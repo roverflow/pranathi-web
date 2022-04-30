@@ -57,12 +57,10 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.jyothyit.ac.in/">
-                  About Us
-                </NavLink>
+                <NavLink href="https://www.jyothyit.ac.in/">About Us</NavLink>
               </NavItem>
               {/* <NavItem> */}
-                {/* <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
+              {/* <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
                   Blog
                 </NavLink>
               </NavItem>
@@ -100,7 +98,6 @@ export default function Footer() {
               <UncontrolledTooltip delay={0} target="tooltip230450801">
                 Follow us
               </UncontrolledTooltip>
-              
             </div>
           </Col>
         </Row>

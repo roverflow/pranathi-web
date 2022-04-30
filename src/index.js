@@ -12,6 +12,7 @@ import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import Home from "pages/home/Home";
 import Events from "pages/events/Events";
+import Rules from "pages/Rules/Rules";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ ReactDOM.render(
       <Route path="/components" render={(props) => <Index {...props} />} />
       <Route path="/pranathi" render={() => <Home></Home>}></Route>
       <Route path="/events" render={() => <Events />}></Route>
+      <Route path="/rules" render={() => <Rules />}></Route>
       <Route
         path="/landing-page"
         render={(props) => <LandingPage {...props} />}

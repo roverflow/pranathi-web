@@ -17,9 +17,13 @@
 */
 import React from "react";
 import classnames from "classnames";
-import { FaPhoneAlt, FaUserAlt, FaMailBulk, FaUserGraduate} from "react-icons/fa";
-
-
+import {
+  FaPhoneAlt,
+  FaUserAlt,
+  FaMailBulk,
+  FaUserGraduate,
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -44,24 +48,24 @@ import {
   DropdownItem,
   DropdownMenu,
   ButtonDropdown,
-  DropdownButton
-
-
+  DropdownButton,
+  Badge,
 } from "reactstrap";
 
+import Layout from "Layout/Layout";
+
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import Footer from "components/Footer/Footer.js";
+// import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
+// import Footer from "components/Footer/Footer.js";
 
 export default function RegisterPage() {
-
   const [squares1to6, setSquares1to6] = React.useState("");
   const [squares7and8, setSquares7and8] = React.useState("");
   const [fullNameFocus, setFullNameFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   const [passwordFocus, setPasswordFocus] = React.useState(false);
   const [dropdownOpen, setDropdownOpen] = React.useState(false);
-  const toggle = () => setDropdownOpen(prevState => !prevState);
+  const toggle = () => setDropdownOpen((prevState) => !prevState);
 
   React.useEffect(() => {
     document.body.classList.toggle("register-page");
@@ -71,7 +75,7 @@ export default function RegisterPage() {
       document.body.classList.toggle("register-page");
       document.documentElement.removeEventListener("mousemove", followCursor);
     };
-  },[]);
+  }, []);
   const followCursor = (event) => {
     let posX = event.clientX - window.innerWidth / 2;
     let posY = event.clientY - window.innerWidth / 6;
@@ -92,194 +96,189 @@ export default function RegisterPage() {
   };
   return (
     <>
-      <ExamplesNavbar />
-      <div className="wrapper">
-        <div className="page-header">
-          <div className="page-header-image" />
-          <div className="content">
-            <Container>
-              <Row>
-                <Col className="offset-lg-0 offset-md-3" lg="5" md="6">
-                  <div
-                    className="square square-7"
-                    id="square7"
-                    style={{ transform: squares7and8 }}
-                  />
-                  <div
-                    className="square square-8"
-                    id="square8"
-                    style={{ transform: squares7and8 }}
-                  />
-                  <Card className="card-register">
-                    <CardHeader>
-                      <CardImg
-                        alt="..."
-                        src={require("assets/img/square-purple-1.png").default}
-                      />
-                      <CardTitle tag="h4">Register</CardTitle>
-                    </CardHeader>
-                    <CardBody>
-                      <Form className="form">
-                        <InputGroup
-                          className={classnames({
-                            "input-group-focus": fullNameFocus,
-                          })}
-                        >
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <FaUserAlt />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Full Name"
-                            type="text"
-                            onFocus={(e) => setFullNameFocus(true)}
-                            onBlur={(e) => setFullNameFocus(false)}
-                          />
-                        </InputGroup>
-                        <InputGroup
-                          className={classnames({
-                            "input-group-focus": emailFocus,
-                          })}
-                        >
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <FaMailBulk/>
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Email"
-                            type="text"
-                            onFocus={(e) => setEmailFocus(true)}
-                            onBlur={(e) => setEmailFocus(false)}
-                          />
-                        </InputGroup>
-                        <InputGroup
-                          className={classnames({
-                            "input-group-focus": passwordFocus,
-                          })}
-                        >
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <FaPhoneAlt/>
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Phone Number"
-                            type="text"
-                            onFocus={(e) => setPasswordFocus(true)}
-                            onBlur={(e) => setPasswordFocus(false)}
-                          />
-                        </InputGroup>
-                        <InputGroup
-                          className={classnames({
-                            "input-group-focus": passwordFocus,
-                          })}
-                        >
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <FaUserGraduate />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="USN"
-                            type="text"
-                            onFocus={(e) => setPasswordFocus(true)}
-                            onBlur={(e) => setPasswordFocus(false)}
-                          />
-                        </InputGroup>
-                        <div className="d-flex justify-content-center p-5">
-                        <ButtonDropdown toggle={() => { setDropdownOpen(!dropdownOpen) }}
-                isOpen={dropdownOpen}>
-    <DropdownToggle caret>
-      Choose Event
-    </DropdownToggle>
-    <DropdownMenu
-    >
-      <DropdownItem>
-        Dance
-      </DropdownItem>
-      <DropdownItem>
-        Music
-      </DropdownItem>
-      <DropdownItem>
-        Instrument
-      </DropdownItem>
-      <DropdownItem >
-        Gaming
-      </DropdownItem>
-      <DropdownItem>Fashion Show</DropdownItem>
-      <DropdownItem>
-        Theatre
-      </DropdownItem>
-      <DropdownItem>
-        Literary
-      </DropdownItem>
-      <DropdownItem>
-        Fine Arts
-      </DropdownItem>
-    </DropdownMenu>
-</ButtonDropdown>
-</div>
-                        <FormGroup check className="text-left">
-                          <Label check>
-                            <Input type="checkbox" />
-                            <span className="form-check-sign" />I agree to the{" "}
-                            <a
-                              href="#pablo"
-                              onClick={(e) => e.preventDefault()}
+      <Layout>
+        <div className="wrapper">
+          <div className="page-header">
+            <div className="page-header-image" />
+            <div className="content">
+              <Container>
+                <Row>
+                  <Col className="offset-lg-0 offset-md-3" lg="5" md="6">
+                    <div
+                      className="square square-7"
+                      id="square7"
+                      style={{ transform: squares7and8 }}
+                    />
+                    <div
+                      className="square square-8"
+                      id="square8"
+                      style={{ transform: squares7and8 }}
+                    />
+                    <Card className="card-register">
+                      <CardHeader>
+                        <CardImg
+                          alt="..."
+                          src={
+                            require("assets/img/square-purple-1.png").default
+                          }
+                        />
+                        <CardTitle tag="h3" style={{ margin: "5px" }}>
+                          Register
+                        </CardTitle>
+                      </CardHeader>
+                      <CardBody>
+                        <Form className="form">
+                          <InputGroup
+                            className={classnames({
+                              "input-group-focus": fullNameFocus,
+                            })}
+                          >
+                            <InputGroupAddon addonType="prepend">
+                              <InputGroupText>
+                                <FaUserAlt />
+                              </InputGroupText>
+                            </InputGroupAddon>
+                            <Input
+                              placeholder="Full Name"
+                              type="text"
+                              onFocus={(e) => setFullNameFocus(true)}
+                              onBlur={(e) => setFullNameFocus(false)}
+                            />
+                          </InputGroup>
+                          <InputGroup
+                            className={classnames({
+                              "input-group-focus": emailFocus,
+                            })}
+                          >
+                            <InputGroupAddon addonType="prepend">
+                              <InputGroupText>
+                                <FaMailBulk />
+                              </InputGroupText>
+                            </InputGroupAddon>
+                            <Input
+                              placeholder="Email"
+                              type="text"
+                              onFocus={(e) => setEmailFocus(true)}
+                              onBlur={(e) => setEmailFocus(false)}
+                            />
+                          </InputGroup>
+                          <InputGroup
+                            className={classnames({
+                              "input-group-focus": passwordFocus,
+                            })}
+                          >
+                            <InputGroupAddon addonType="prepend">
+                              <InputGroupText>
+                                <FaPhoneAlt />
+                              </InputGroupText>
+                            </InputGroupAddon>
+                            <Input
+                              placeholder="Phone Number"
+                              type="text"
+                              onFocus={(e) => setPasswordFocus(true)}
+                              onBlur={(e) => setPasswordFocus(false)}
+                            />
+                          </InputGroup>
+                          <InputGroup
+                            className={classnames({
+                              "input-group-focus": passwordFocus,
+                            })}
+                          >
+                            <InputGroupAddon addonType="prepend">
+                              <InputGroupText>
+                                <FaUserGraduate />
+                              </InputGroupText>
+                            </InputGroupAddon>
+                            <Input
+                              placeholder="USN"
+                              type="text"
+                              onFocus={(e) => setPasswordFocus(true)}
+                              onBlur={(e) => setPasswordFocus(false)}
+                            />
+                          </InputGroup>
+                          <div className="d-flex justify-content-center p-5">
+                            <ButtonDropdown
+                              toggle={() => {
+                                setDropdownOpen(!dropdownOpen);
+                              }}
+                              isOpen={dropdownOpen}
                             >
-                              rules mentioned.
-                            </a>
-                            .
-                          </Label>
-                        </FormGroup>
-                      </Form>
-                    </CardBody>
-                    <CardFooter>
-                      <Button className="btn-round" color="primary" size="lg">
-                        Get Started
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                </Col>
-              </Row>
-              <div className="register-bg" />
-              <div
-                className="square square-1"
-                id="square1"
-                style={{ transform: squares1to6 }}
-              />
-              <div
-                className="square square-2"
-                id="square2"
-                style={{ transform: squares1to6 }}
-              />
-              <div
-                className="square square-3"
-                id="square3"
-                style={{ transform: squares1to6 }}
-              />
-              <div
-                className="square square-4"
-                id="square4"
-                style={{ transform: squares1to6 }}
-              />
-              <div
-                className="square square-5"
-                id="square5"
-                style={{ transform: squares1to6 }}
-              />
-              <div
-                className="square square-6"
-                id="square6"
-                style={{ transform: squares1to6 }}
-              />
-            </Container>
+                              <DropdownToggle caret>
+                                Choose Event
+                              </DropdownToggle>
+                              <DropdownMenu>
+                                <DropdownItem>Dance</DropdownItem>
+                                <DropdownItem>Music</DropdownItem>
+                                <DropdownItem>Instrument</DropdownItem>
+                                <DropdownItem>Gaming</DropdownItem>
+                                <DropdownItem>Fashion Show</DropdownItem>
+                                <DropdownItem>Theatre</DropdownItem>
+                                <DropdownItem>Literary</DropdownItem>
+                                <DropdownItem>Fine Arts</DropdownItem>
+                              </DropdownMenu>
+                            </ButtonDropdown>
+                          </div>
+                          <FormGroup check className="text-left">
+                            <Label check>
+                              <Input type="checkbox" />
+                              <span className="form-check-sign" />I agree to the
+                              {"  "}
+                              <Badge
+                                color="primary"
+                                tag={Link}
+                                to="/rules"
+                                style={{ marginLeft: "3px" }}
+                              >
+                                Rules Mentioned
+                              </Badge>
+                            </Label>
+                          </FormGroup>
+                        </Form>
+                      </CardBody>
+                      <CardFooter>
+                        <Button className="btn-round" color="primary" size="lg">
+                          Register Now
+                        </Button>
+                      </CardFooter>
+                    </Card>
+                  </Col>
+                </Row>
+                <div className="register-bg" />
+                <div
+                  className="square square-1"
+                  id="square1"
+                  style={{ transform: squares1to6 }}
+                />
+                <div
+                  className="square square-2"
+                  id="square2"
+                  style={{ transform: squares1to6 }}
+                />
+                <div
+                  className="square square-3"
+                  id="square3"
+                  style={{ transform: squares1to6 }}
+                />
+                <div
+                  className="square square-4"
+                  id="square4"
+                  style={{ transform: squares1to6 }}
+                />
+                <div
+                  className="square square-5"
+                  id="square5"
+                  style={{ transform: squares1to6 }}
+                />
+                <div
+                  className="square square-6"
+                  id="square6"
+                  style={{ transform: squares1to6 }}
+                />
+              </Container>
+            </div>
           </div>
         </div>
-        <Footer />
-      </div>
+      </Layout>
     </>
   );
 }

@@ -1,36 +1,14 @@
 {
-  "name": "blk-design-system-react",
+  "name": "pranathi-web",
   "version": "1.2.0",
-  "description": "React version of BLK Design System by Creative Tim",
+  "description": "Website for pranathi | JIT",
   "main": "index.js",
-  "author": "Creative Tim",
+  "author": "Vinay and Vaibhavi",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/blk-design-system-react.git"
+    "url": "git+https://github.com/roverflow/pranathi-web.git"
   },
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
-  },
-  "homepage": "https://demos.creative-tim.com/blk-design-system-react/#/",
-  "keywords": [
-    "react",
-    "reactjs",
-    "blk",
-    "blk-react",
-    "design",
-    "design-react",
-    "system",
-    "system-react",
-    "design-system",
-    "design-system-react",
-    "blk-design",
-    "blk-design-react",
-    "blk-system",
-    "blk-system-react",
-    "blk-design-system",
-    "blk-design-system-react"
-  ],
   "dependencies": {
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
