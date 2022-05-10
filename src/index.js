@@ -6,11 +6,11 @@ import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss?v=1.2.0";
 import "assets/demo/demo.css";
 
-import Index from "views/Index.js";
-import LandingPage from "views/examples/LandingPage.js";
+// import Index from "views/Index.js";
+// import LandingPage from "views/examples/LandingPage.js";
 // import RegisterPage from "views/examples/RegisterPage.js";
 import Register from "pages/register/Register.js";
-import ProfilePage from "views/examples/ProfilePage.js";
+// import ProfilePage from "views/examples/ProfilePage.js";
 import Home from "pages/home/Home";
 import Events from "pages/events/Events";
 import Rules from "pages/Rules/Rules";
@@ -23,12 +23,10 @@ ReactDOM.render(
       <Route path="/events" render={() => <Events />}></Route>
       <Route path="/rules" render={() => <Rules />}></Route>
       <Route path="/members" render={() => <Members />}></Route>
-
       <Route
         path="/register-page"
         render={(props) => <Register {...props} />}
       />
-
       <Redirect from="/" to="/pranathi" />
     </Switch>
   </BrowserRouter>,
