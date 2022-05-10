@@ -266,14 +266,23 @@ export default function Register() {
                         </Form>
                       </CardBody>
                       <CardFooter>
-                        <Button
+                        {/* <Button
                           className="btn-round"
                           color="primary"
                           size="lg"
                           onClick={toggle}
                         >
                           Register Now
-                        </Button>
+                        </Button> */}
+                        <form>
+                          <script
+                            src="https://checkout.razorpay.com/v1/payment-button.js"
+                            data-payment_button_id="pl_JTQDQin78sqP4n"
+                            async
+                          >
+                            {" "}
+                          </script>{" "}
+                        </form>
                       </CardFooter>
                     </Card>
                   </Col>
