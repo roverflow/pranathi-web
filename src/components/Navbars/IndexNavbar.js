@@ -108,6 +108,32 @@ export default function IndexNavbar() {
                 Instagram
               </NavLink>
             </NavItem>
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+                href="https://www.jyothyit.ac.in/"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="View our website"
+              >
+                <i className="fab fa-website" />
+                College Website
+              </NavLink>
+            </NavItem>
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+               
+                rel="noopener noreferrer"
+                target="_blank"
+                tag={Link}
+                to="/rules"
+                title="View our rules"
+              >
+                <i className="fab fa-website" />
+                Rules
+              </NavLink>
+            </NavItem>
             {/* <NavItem className="p-0">
               <NavLink data-placement="bottom" tag={Link} to="/register-page">
                 ContactUs
