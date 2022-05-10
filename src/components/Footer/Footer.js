@@ -84,7 +84,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://www.instagram.com/jit_pranathi/"
+                href="https://www.instagram.com/jyothyitofficial/"
                 id="tooltip622135962"
                 target="_blank"
               >
