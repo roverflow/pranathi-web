@@ -123,6 +123,19 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
+                tag={Link}
+                to="/members"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="View our members"
+              >
+                <i className="fab fa-website" />
+                Our Members
+              </NavLink>
+            </NavItem>
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
                
                 rel="noopener noreferrer"
                 target="_blank"

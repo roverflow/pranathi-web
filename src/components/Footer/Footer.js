@@ -62,6 +62,11 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
+                <NavLink to="/members" tag={Link}>
+                  Our Members
+                </NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink to="/rules" tag={Link}>
                   Rules
                 </NavLink>
