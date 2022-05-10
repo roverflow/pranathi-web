@@ -19,23 +19,16 @@ import Members from "pages/members/Members";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/components" render={(props) => <Index {...props} />} />
       <Route path="/pranathi" render={() => <Home></Home>}></Route>
       <Route path="/events" render={() => <Events />}></Route>
       <Route path="/rules" render={() => <Rules />}></Route>
       <Route path="/members" render={() => <Members />}></Route>
-      <Route
-        path="/landing-page"
-        render={(props) => <LandingPage {...props} />}
-      />
+
       <Route
         path="/register-page"
         render={(props) => <Register {...props} />}
       />
-      <Route
-        path="/profile-page"
-        render={(props) => <ProfilePage {...props} />}
-      />
+
       <Redirect from="/" to="/pranathi" />
     </Switch>
   </BrowserRouter>,
