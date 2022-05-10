@@ -47,14 +47,126 @@ const Members = () => {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Keerthana B</h4>
+                        <h4 className="text-uppercase">Dr. Kishore G R</h4>
                         <hr className="line-primary" />
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem> Contact Number: 9620403128</ListGroupItem>
-                        <ListGroupItem> Assigned Wok: Convener & Decoration </ListGroupItem>
+                        <ListGroupItem> CHIEF COORDINATOR</ListGroupItem>
+                        <ListGroupItem> Contact Number: 9538460697 </ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/bitcoin.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Dr. Manoj Kumar M</h4>
+                        <hr className="line-primary" />
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem> CHIEF COORDINATOR</ListGroupItem>
+                        <ListGroupItem> Contact Number: 9880210123 </ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/bitcoin.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Mr. Rakesh B K</h4>
+                        <hr className="line-primary" />
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>COORDINATOR</ListGroupItem>
+                        {/* <ListGroupItem> Contact Number: 9538460697 </ListGroupItem> */}
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/bitcoin.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Mr. Madhukar</h4>
+                        <hr className="line-primary" />
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem> COORDINATOR</ListGroupItem>
+                        {/* <ListGroupItem> Contact Number: 9538460697 </ListGroupItem> */}
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/bitcoin.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Ms. Deepthi Das</h4>
+                        <hr className="line-primary" />
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>COORDINATOR</ListGroupItem>
+                        {/* <ListGroupItem> Contact Number: 9538460697 </ListGroupItem> */}
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -122,7 +234,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Contact Number: 7204556446</ListGroupItem>
+                        <ListGroupItem>Contact Number: 8660719686</ListGroupItem>
                         {/* <ListGroupItem></ListGroupItem> */}
                         <ListGroupItem>Assigned Work: Convener & Stalls</ListGroupItem>
                         <ListGroupItem></ListGroupItem>
