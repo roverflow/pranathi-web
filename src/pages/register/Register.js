@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import classnames from "classnames";
 import {
   FaPhoneAlt,
@@ -27,6 +27,10 @@ import {
   Row,
   Col,
   Badge,
+  Modal,
+  ModalFooter,
+  ModalHeader,
+  ModalBody,
 } from "reactstrap";
 
 import { EventsData } from "pages/events/EventsData";
@@ -40,7 +44,7 @@ import Layout from "Layout/Layout";
 // import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 // import Footer from "components/Footer/Footer.js";
 
-export default function RegisterPage() {
+export default function Register() {
   const [squares1to6, setSquares1to6] = React.useState("");
   const [squares7and8, setSquares7and8] = React.useState("");
   const [fullNameFocus, setFullNameFocus] = React.useState(false);
@@ -48,6 +52,17 @@ export default function RegisterPage() {
   const [passwordFocus, setPasswordFocus] = React.useState(false);
   const [value, setValue] = React.useState(EventsData[0]);
   const [inputValue, setInputValue] = React.useState("");
+
+  const [Name, setName] = useState("");
+  const [PhoneNumber, setPhoneNumber] = useState("");
+  const [Email, setEmail] = useState("");
+  const [usn, setUsn] = useState("");
+
+  // Modal open state
+  const [modal, setModal] = React.useState(false);
+
+  // Toggle for Modal
+  const toggle = () => setModal(!modal);
 
   React.useEffect(() => {
     document.body.classList.toggle("register-page");
@@ -79,6 +94,23 @@ export default function RegisterPage() {
   };
   return (
     <>
+      <div
+        style={{
+          display: "block",
+          width: 700,
+          padding: 30,
+        }}
+      >
+        <Modal isOpen={modal} toggle={toggle} size="lg">
+          <ModalHeader toggle={toggle}>Sample Modal Title</ModalHeader>
+          <ModalBody>Sample Modal Body Text to display...</ModalBody>
+          <ModalFooter>
+            <Button color="primary" onClick={toggle}>
+              Okay
+            </Button>
+          </ModalFooter>
+        </Modal>
+      </div>
       <Layout>
         <div className="wrapper">
           <div className="page-header">
@@ -181,7 +213,7 @@ export default function RegisterPage() {
                           </InputGroup>
                           <div className="d-flex justify-content-center p-5">
                             <Autocomplete
-                              style={{ color: "blue" }}
+                              style={{ color: "white" }}
                               disablePortal
                               id="combo-box-demo"
                               renderOption={(props, option) => {
@@ -211,7 +243,7 @@ export default function RegisterPage() {
                                 <TextField
                                   {...params}
                                   label="Pick your Event"
-                                  style={{ color: "black" }}
+                                  style={{ color: "white" }}
                                 />
                               )}
                             />
@@ -238,9 +270,7 @@ export default function RegisterPage() {
                           className="btn-round"
                           color="primary"
                           size="lg"
-                          onClick={() => {
-                            console.log(value);
-                          }}
+                          onClick={toggle}
                         >
                           Register Now
                         </Button>

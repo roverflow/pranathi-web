@@ -57,7 +57,14 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.jyothyit.ac.in/">About Us</NavLink>
+                <NavLink href="https://www.jyothyit.ac.in/">
+                  College Website
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/rules" tag={Link}>
+                  Rules
+                </NavLink>
               </NavItem>
               {/* <NavItem> */}
               {/* <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">

@@ -8,7 +8,8 @@ import "assets/demo/demo.css";
 
 import Index from "views/Index.js";
 import LandingPage from "views/examples/LandingPage.js";
-import RegisterPage from "views/examples/RegisterPage.js";
+// import RegisterPage from "views/examples/RegisterPage.js";
+import Register from "pages/register/Register.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import Home from "pages/home/Home";
 import Events from "pages/events/Events";
@@ -27,7 +28,7 @@ ReactDOM.render(
       />
       <Route
         path="/register-page"
-        render={(props) => <RegisterPage {...props} />}
+        render={(props) => <Register {...props} />}
       />
       <Route
         path="/profile-page"
