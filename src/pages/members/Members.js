@@ -76,7 +76,7 @@ const Members = () => {
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Dr. Manoj Kumar M</h4>
-                        <hr className="line-primary" />
+                        <hr className="line-success" />
                       </Col>
                     </Row>
                     <Row>
@@ -104,7 +104,7 @@ const Members = () => {
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Mr. Rakesh B K</h4>
-                        <hr className="line-primary" />
+                        <hr className="line-info" />
                       </Col>
                     </Row>
                     <Row>
@@ -160,7 +160,7 @@ const Members = () => {
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Ms. Deepthi Das</h4>
-                        <hr className="line-primary" />
+                        <hr className="line-success" />
                       </Col>
                     </Row>
                     <Row>
@@ -662,7 +662,7 @@ const Members = () => {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Krutarth M</h4>
+                        <h4 className="text-uppercase">Krutharth M</h4>
                         <hr className="line-primary" />
                       </Col>
                     </Row>
@@ -725,7 +725,7 @@ const Members = () => {
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Vaibhavi S</h4>
-                        <hr className="line-success" />
+                        <hr className="line-info" />
                       </Col>
                     </Row>
                     <Row>
