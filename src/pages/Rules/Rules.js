@@ -32,13 +32,19 @@ const Rules = () => {
                 <Card>
                   <CardBody>
                     <CardText>
-                      <h4>1. Must be Covid-19 vaccinated (both the doses).</h4>
+                      <h3>1. Must be Covid-19 vaccinated (both the doses).</h3>
                     </CardText>
                     <CardText>
-                      <h4>2. Please follow Covid-19 guidelines (wear a mask, carry a sanitizer).</h4>
+                      <h3>2. Follow Covid-19 guidelines (wear a mask, carry a sanitizer).</h3>
                     </CardText>
                     <CardText>
-                      <h4>3. ID Card compulsory.</h4> 
+                      <h3>3. ID Card compulsory.</h3> 
+                    </CardText>
+                    <CardText>
+                      <h3>4. You are responsible for your own belongings</h3> 
+                    </CardText>
+                    <CardText>
+                      <h3>5. If four teams are not registered event ill be called off.</h3> 
                     </CardText>
                       
                     
