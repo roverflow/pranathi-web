@@ -15,6 +15,7 @@ import Home from "pages/home/Home";
 import Events from "pages/events/Events";
 import Rules from "pages/Rules/Rules";
 import Members from "pages/members/Members";
+import Gallery from "pages/Gallery/Gallery";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route path="/events" render={() => <Events />}></Route>
       <Route path="/rules" render={() => <Rules />}></Route>
       <Route path="/members" render={() => <Members />}></Route>
+      <Route path="/gallery" render={() => <Gallery />}></Route>
       <Route
         path="/register-page"
         render={(props) => <Register {...props} />}

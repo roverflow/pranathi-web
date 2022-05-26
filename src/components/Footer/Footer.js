@@ -18,7 +18,8 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h3 className="title">Pranathi•2k22</h3>
+            {/* <h3 className="title">Pranathi•2k22</h3> */}
+            <h3 className="h1-seo font-face-nt">Pranathi•2k22</h3>
           </Col>
           <Col md="3">
             <Nav>
@@ -40,6 +41,11 @@ export default function Footer() {
               <NavItem>
                 <NavLink to="/events" tag={Link}>
                   Events
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/gallery" tag={Link}>
+                  Gallery
                 </NavLink>
               </NavItem>
               {/* <NavItem>

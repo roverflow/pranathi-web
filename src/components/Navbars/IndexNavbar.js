@@ -57,8 +57,8 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>Pranathi </span>
-            2k22
+            <span className="h1-seo font-face-nt">Pranathi 2k22 </span>
+            
           </NavbarBrand>
           <button
             aria-expanded={collapseOpen}
