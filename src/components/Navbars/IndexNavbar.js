@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Button,
+  // Button,
   Collapse,
   // DropdownToggle,
   // DropdownMenu,
@@ -58,7 +58,6 @@ export default function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
             <span className="h1-seo font-face-nt">Pranathi 2k22 </span>
-            
           </NavbarBrand>
           <button
             aria-expanded={collapseOpen}
@@ -81,7 +80,7 @@ export default function IndexNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                  Pranathi•2022
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -125,8 +124,6 @@ export default function IndexNavbar() {
                 data-placement="bottom"
                 tag={Link}
                 to="/members"
-                rel="noopener noreferrer"
-                target="_blank"
                 title="View our members"
               >
                 <i className="fab fa-website" />
@@ -136,9 +133,6 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-               
-                rel="noopener noreferrer"
-                target="_blank"
                 tag={Link}
                 to="/rules"
                 title="View our rules"
@@ -147,53 +141,6 @@ export default function IndexNavbar() {
                 Rules
               </NavLink>
             </NavItem>
-            {/* <NavItem className="p-0">
-              <NavLink data-placement="bottom" tag={Link} to="/register-page">
-                ContactUs
-              </NavLink>
-            </NavItem> */}
-            {/* <UncontrolledDropdown nav>
-              <DropdownToggle
-                caret
-                color="default"
-                data-toggle="dropdown"
-                href="#pablo"
-                nav
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fa fa-cogs d-lg-none d-xl-none" />
-                Getting started
-              </DropdownToggle>
-              <DropdownMenu className="dropdown-with-icons">
-                <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
-                  <i className="tim-icons icon-paper" />
-                  Documentation
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/register-page">
-                  <i className="tim-icons icon-bullet-list-67" />
-                  Register Page
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/landing-page">
-                  <i className="tim-icons icon-image-02" />
-                  Landing Page
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/profile-page">
-                  <i className="tim-icons icon-single-02" />
-                  Profile Page
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown> */}
-            {/* <NavItem>
-              <Button
-                className="nav-link d-none d-lg-block"
-                color="primary"
-                data-placement="bottom"
-                tag={Link}
-                to="/register-page"
-              >
-                <i className="tim-icons icon-spaceship" /> Register Now
-              </Button>
-            </NavItem> */}
           </Nav>
         </Collapse>
       </Container>

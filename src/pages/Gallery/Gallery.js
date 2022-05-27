@@ -1,19 +1,18 @@
 import React from "react";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import Footer from "components/Footer/Footer";
+import Layout from "Layout/Layout";
 
-const Layout = ({ children }) => {
+const Gallery = ({ children }) => {
   return (
     <>
-      <IndexNavbar></IndexNavbar>
-      <div className="wrapper">
-        {children}
-        <div>
-          <Footer />
-        </div>
+      <div>
+        <Layout>
+          <h1>Gallery</h1>
+        </Layout>
       </div>
     </>
   );
 };
 
-export default Layout;
+export default Gallery;
