@@ -66,7 +66,6 @@ const EventsComponent = (props) => {
                     <CardText>
                       <h2>
                         Note : Upload payment receipt sent to your Mail ID in
-                        the google form link given{" "}
                         <a
                           href="https://forms.gle/d3omPWPNmc8dT5p16"
                           target="_blank"
