@@ -8,6 +8,8 @@ export const EventsData = [
     rules: [],
     Category: "Dance",
     EntryFee: "100",
+    Link: "https://rzp.io/l/WcHAFHWwd7"
+
   },
   {
     id: 2,
@@ -18,6 +20,8 @@ export const EventsData = [
     rules: [],
     Category: "Dance",
     EntryFee: "500",
+    Link: "https://rzp.io/l/WMuA79THh"
+
   },
   {
     id: 3,
@@ -28,6 +32,7 @@ export const EventsData = [
     rules: ["No Gender Restriction (M+M),(M+F),(F+F)"],
     Category: "Dance",
     EntryFee: "300",
+    Link: "https://rzp.io/l/ROMZcA1UxI"
   },
   {
     id: 4,
@@ -38,6 +43,8 @@ export const EventsData = [
     rules: [],
     Category: "Dance",
     EntryFee: "150",
+    Link: "https://rzp.io/l/iwnUCXug"
+
   },
   {
     id: 5,
@@ -55,6 +62,8 @@ export const EventsData = [
     ],
     Category: "Dance",
     EntryFee: "500",
+    Link: "https://rzp.io/l/Is3TaWcWVk"
+
   },
   {
     id: 6,
@@ -69,6 +78,8 @@ export const EventsData = [
     ],
     Category: "Sing",
     EntryFee: "150",
+    Link: "https://rzp.io/l/Ibea3Rywz"
+
   },
   {
     id: 7,
@@ -84,6 +95,8 @@ export const EventsData = [
     ],
     Category: "Sing",
     EntryFee: "150",
+    Link: "https://rzp.io/l/M6rAYm70Y"
+
   },
   {
     id: 8,
@@ -98,6 +111,8 @@ export const EventsData = [
     ],
     Category: "Sing",
     EntryFee: "150",
+    Link: "https://rzp.io/l/D364mC1x0H"
+
   },
   {
     id: 9,
@@ -113,6 +128,8 @@ export const EventsData = [
     ],
     Category: "Sing",
     EntryFee: "150",
+    Link: "https://rzp.io/l/sybtfFl"
+
   },
   {
     id: 10,
@@ -129,6 +146,8 @@ export const EventsData = [
     ],
     Category: "Sing",
     EntryFee: "150",
+    Link: "https://rzp.io/l/P40oV8mjLg"
+
   },
   {
     id: 11,
@@ -148,6 +167,8 @@ export const EventsData = [
     ],
     Category: "Sing",
     EntryFee: "500",
+    Link: "https://rzp.io/l/Qm0Wk2w3k"
+
   },
   {
     id: 12,
@@ -162,6 +183,7 @@ export const EventsData = [
     ],
     Category: "Fine Arts",
     EntryFee: "300",
+    Link: "https://rzp.io/l/gItSYeDE"
   },
   {
     id: 13,
@@ -174,6 +196,7 @@ export const EventsData = [
     ],
     Category: "Theatre",
     EntryFee: "150",
+    Link: "https://rzp.io/l/GN45ZGEhC"
   },
   {
     id: 14,
@@ -187,6 +210,7 @@ export const EventsData = [
     ],
     Category: "Theatre",
     EntryFee: "600",
+    Link: "https://rzp.io/l/MH5eVle"
   },
   {
     id: 15,
@@ -202,6 +226,7 @@ export const EventsData = [
     ],
     Category: "Theatre",
     EntryFee: "600",
+    Link: "https://rzp.io/l/rd1sPxD0O"
   },
   {
     id: 16,
@@ -212,6 +237,7 @@ export const EventsData = [
     rules: [],
     Category: "Theatre",
     EntryFee: "200",
+    Link: "https://rzp.io/l/D44AvAHqW"
   },
   {
     id: 17,
@@ -222,6 +248,7 @@ export const EventsData = [
     rules: [],
     Category: "Theatre",
     EntryFee: "500",
+    Link: "https://rzp.io/l/OxLnwI8y2G"
   },
   {
     id: 18,
@@ -239,6 +266,7 @@ export const EventsData = [
     ],
     Category: "Literary",
     EntryFee: "100",
+    Link: "https://rzp.io/l/FVL5S0kT9x"
   },
   {
     id: 19,
@@ -255,6 +283,7 @@ export const EventsData = [
     ],
     Category: "Literary",
     EntryFee: "200",
+    Link: "https://rzp.io/l/S34dPxiO"
   },
   {
     id: 20,
@@ -269,6 +298,7 @@ export const EventsData = [
     ],
     Category: "Literary",
     EntryFee: "300",
+    Link: "https://rzp.io/l/oYqT1hiC"
   },
   {
     id: 21,
@@ -283,6 +313,7 @@ export const EventsData = [
     ],
     Category: "Literary",
     EntryFee: "200",
+    Link: "https://rzp.io/l/10thzo0"
   },
   {
     id: 22,
@@ -297,6 +328,7 @@ export const EventsData = [
     ],
     Category: "Literary",
     EntryFee: "150",
+    Link: "https://rzp.io/l/sLxInDzqx"
   },
   {
     id: 23,
@@ -311,6 +343,7 @@ export const EventsData = [
     ],
     Category: "Fine Arts",
     EntryFee: "200",
+    Link: "https://rzp.io/l/FYOE9bI"
   },
   {
     id: 24,
@@ -327,6 +360,7 @@ export const EventsData = [
     ],
     Category: "Fine Arts",
     EntryFee: "100",
+    Link: "https://rzp.io/l/isNRyT51F"
   },
   {
     id: 25,
@@ -343,6 +377,7 @@ export const EventsData = [
     ],
     Category: "Fine Arts",
     EntryFee: "150",
+    Link: "https://rzp.io/l/cX7jNHHJ7"
   },
   {
     id: 26,
@@ -357,6 +392,7 @@ export const EventsData = [
     ],
     Category: "Gaming",
     EntryFee: "200",
+    Link: "https://rzp.io/l/FRmQE1B"
   },
   {
     id: 27,
@@ -371,6 +407,7 @@ export const EventsData = [
     ],
     Category: "Gaming",
     EntryFee: "250",
+    Link: "https://rzp.io/l/hiJPjk2"
   },
   {
     id: 28,
@@ -381,6 +418,7 @@ export const EventsData = [
     rules: ["Details Will be provided at the venue.", "Offline"],
     Category: "Gaming",
     EntryFee: "200",
+    Link: "https://rzp.io/l/th4OyRZZG"
   },
   {
     id: 29,
@@ -391,6 +429,7 @@ export const EventsData = [
     rules: ["Deatils Will be provided at the venue.", "Offline"],
     Category: "Gaming",
     EntryFee: "200",
+    Link: "https://rzp.io/l/AECs0JvG"
   },
   {
     id: 30,
@@ -404,6 +443,7 @@ export const EventsData = [
     ],
     Category: "Gaming",
     EntryFee: "1400",
+    Link : "https://rzp.io/l/SkXGa4IFR"
   },
 ];
 
