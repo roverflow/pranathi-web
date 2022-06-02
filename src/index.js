@@ -9,7 +9,7 @@ import "assets/demo/demo.css";
 // import Index from "views/Index.js";
 // import LandingPage from "views/examples/LandingPage.js";
 // import RegisterPage from "views/examples/RegisterPage.js";
-import Register from "pages/register/Register.js";
+// import Register from "pages/register/Register.js";
 // import ProfilePage from "views/examples/ProfilePage.js";
 import Home from "pages/home/Home";
 import Events from "pages/events/Events";
@@ -27,10 +27,10 @@ ReactDOM.render(
       <Route exact path="/members" render={() => <Members />}></Route>
       <Route exact path="/gallery" render={() => <Gallery />}></Route>
       <Route path="/event/:id" render={() => <EventsComponent />}></Route>
-      <Route
+      {/* <Route
         path="/register-page"
         render={(props) => <Register {...props} />}
-      />
+      /> */}
       <Redirect from="/" to="/pranathi" />
     </Switch>
   </BrowserRouter>,
