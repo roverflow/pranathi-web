@@ -71,23 +71,23 @@ export default function PageHeader() {
               <div className="d-flex flex-row m-5">
                 <Card className="m-2" body>
                   <CardText>
-                    <h1>{days}</h1>
+                    <h3>{days}</h3>
                     Days
                   </CardText>
                 </Card>
                 <Card className="m-2" body>
                   <CardText>
-                    <h1>{hours}</h1> hours
+                    <h3>{hours}</h3> hours
                   </CardText>
                 </Card>
                 <Card className="m-2" body>
                   <CardText>
-                    <h1>{minutes}</h1> Min
+                    <h3>{minutes}</h3> Min
                   </CardText>
                 </Card>
                 <Card className="m-2" body>
                   <CardText>
-                    <h1>{seconds}</h1> Sec
+                    <h3>{seconds}</h3> Sec
                   </CardText>
                 </Card>
               </div>
