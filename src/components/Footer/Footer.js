@@ -44,7 +44,7 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/gallery" tag={Link}>
+                <NavLink to="/Gallerypage" tag={Link}>
                   Gallery
                 </NavLink>
               </NavItem>

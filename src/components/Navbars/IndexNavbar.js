@@ -141,6 +141,17 @@ export default function IndexNavbar() {
                 Rules
               </NavLink>
             </NavItem>
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+                tag={Link}
+                to="/events"
+                title="View our Events"
+              >
+                <i className="fab fa-website" />
+                Events
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Container>
