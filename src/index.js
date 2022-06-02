@@ -15,7 +15,7 @@ import Home from "pages/home/Home";
 import Events from "pages/events/Events";
 import Rules from "pages/Rules/Rules";
 import Members from "pages/members/Members";
-import Gallery from "pages/gallery/Gallery";
+// import Gallery from "pages/gallery/Gallery";
 import EventsComponent from "components/EventsComponent/EventsComponent";
 
 ReactDOM.render(
@@ -25,7 +25,7 @@ ReactDOM.render(
       <Route exact path="/events" render={() => <Events />}></Route>
       <Route exact path="/rules" render={() => <Rules />}></Route>
       <Route exact path="/members" render={() => <Members />}></Route>
-      <Route exact path="/gallery" render={() => <Gallery />}></Route>
+      {/* <Route exact path="/gallery" render={() => <Gallery />}></Route> */}
       <Route path="/event/:id" render={() => <EventsComponent />}></Route>
       {/* <Route
         path="/register-page"
