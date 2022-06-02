@@ -28,11 +28,6 @@ export default function Footer() {
                   Home
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
-                  Landing
-                </NavLink>
-              </NavItem> */}
               <NavItem>
                 <NavLink to="/events" tag={Link}>
                   Register
@@ -48,19 +43,12 @@ export default function Footer() {
                   Gallery
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
-                <NavLink to="/profile-page" tag={Link}>
-                  Profile
-                </NavLink>
-              </NavItem> */}
             </Nav>
           </Col>
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
-                  Contact Us
-                </NavLink>
+                <NavLink to="/members">Contact Us</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://www.jyothyit.ac.in/">
@@ -77,16 +65,6 @@ export default function Footer() {
                   Rules
                 </NavLink>
               </NavItem>
-              {/* <NavItem> */}
-              {/* <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
-                  Blog
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://opensource.org/licenses/MIT">
-                  License
-                </NavLink>
-              </NavItem> */}
             </Nav>
           </Col>
           <Col md="3">

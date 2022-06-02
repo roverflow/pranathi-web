@@ -3,6 +3,7 @@ import React from "react";
 // import Footer from "components/Footer/Footer";
 import Layout from "Layout/Layout";
 import { Row, Col, Container } from "reactstrap";
+import ImageCarousel from "components/Carousel/ImageCarousel";
 
 const GalleryPage = () => {
   return (
@@ -17,7 +18,14 @@ const GalleryPage = () => {
               <Row>
                 <Col md="4">
                   <hr className="line-info" />
-                  <h1>Rules for the Event </h1>
+                  <h1>Gallery </h1>
+                </Col>
+              </Row>
+            </Container>
+            <Container>
+              <Row>
+                <Col>
+                  <ImageCarousel></ImageCarousel>
                 </Col>
               </Row>
             </Container>
