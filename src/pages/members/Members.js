@@ -54,13 +54,14 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem> CHIEF COORDINATOR</ListGroupItem>
-                        <ListGroupItem> Contact Number: 9538460697 </ListGroupItem>
+                        <ListGroupItem>
+                          {" "}
+                          Contact Number: 9538460697{" "}
+                        </ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  <CardFooter className="text-center">
-                    
-                  </CardFooter>
+                  <CardFooter className="text-center"></CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -82,13 +83,14 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem> CHIEF COORDINATOR</ListGroupItem>
-                        <ListGroupItem> Contact Number: 9880210123 </ListGroupItem>
+                        <ListGroupItem>
+                          {" "}
+                          Contact Number: 9880210123{" "}
+                        </ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  <CardFooter className="text-center">
-                    
-                  </CardFooter>
+                  <CardFooter className="text-center"></CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -114,9 +116,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  <CardFooter className="text-center">
-                    
-                  </CardFooter>
+                  <CardFooter className="text-center"></CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -142,9 +142,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  <CardFooter className="text-center">
-                    
-                  </CardFooter>
+                  <CardFooter className="text-center"></CardFooter>
                 </Card>
               </Col>
               <Col md="4">
@@ -170,14 +168,11 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  <CardFooter className="text-center">
-                    
-                  </CardFooter>
+                  <CardFooter className="text-center"></CardFooter>
                 </Card>
               </Col>
-              </Row>
-            
-            </Container>
+            </Row>
+          </Container>
           <Container>
             <Row>
               <Col md="4">
@@ -204,8 +199,14 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem> Contact Number: 9620403128</ListGroupItem>
-                        <ListGroupItem> Assigned Wok: Convener & Decoration </ListGroupItem>
+                        <ListGroupItem>
+                          {" "}
+                          Contact Number: 9620403128
+                        </ListGroupItem>
+                        <ListGroupItem>
+                          {" "}
+                          Assigned Wok: Convener & Decoration{" "}
+                        </ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -234,9 +235,13 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Contact Number: 8660719686</ListGroupItem>
+                        <ListGroupItem>
+                          Contact Number: 8660719686
+                        </ListGroupItem>
                         {/* <ListGroupItem></ListGroupItem> */}
-                        <ListGroupItem>Assigned Work: Convener & Stalls</ListGroupItem>
+                        <ListGroupItem>
+                          Assigned Work: Convener & Stalls
+                        </ListGroupItem>
                         <ListGroupItem></ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -271,7 +276,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
                       Register
@@ -332,7 +337,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
                       Register
@@ -363,7 +368,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
                       Register
@@ -394,7 +399,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
                       Register
@@ -425,7 +430,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
                       Register
@@ -456,7 +461,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
                       Register
@@ -487,7 +492,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
                       Register
@@ -507,7 +512,9 @@ const Members = () => {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Thanmay Bharadwaj J S</h4>
+                        <h4 className="text-uppercase">
+                          Thanmay Bharadwaj J S
+                        </h4>
                         <hr className="line-success" />
                       </Col>
                     </Row>
@@ -518,7 +525,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
                       Register
@@ -549,7 +556,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
                       Register
@@ -576,11 +583,13 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Assigned Work:</ListGroupItem>
-                        <ListGroupItem>Hospitality/Hygiene & Events</ListGroupItem>
+                        <ListGroupItem>
+                          Hospitality/Hygiene & Events
+                        </ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
                       Register
@@ -611,7 +620,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
                       Register
@@ -642,7 +651,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
                       Register
@@ -673,7 +682,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
                       Register
@@ -704,7 +713,7 @@ const Members = () => {
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
                       Register
@@ -731,11 +740,11 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Assigned Work:</ListGroupItem>
-                        <ListGroupItem>Tech & Decoration</ListGroupItem>
+                        <ListGroupItem>Tech & Events</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
-                  
+
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
                       Register
