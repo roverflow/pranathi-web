@@ -16,6 +16,7 @@ import {
 } from "reactstrap";
 import {
   EventsDataDance,
+  EventsDataFashion,
   EventsDataFinearts,
   EventsDataGaming,
   EventsDataLiterary,
@@ -63,7 +64,7 @@ const Events = () => {
                         <Row>
                           <ListGroup>
                             <ListGroupItem>Entry Fee:</ListGroupItem>
-                            <ListGroupItem>100</ListGroupItem>
+                            <ListGroupItem>{data.EntryFee}</ListGroupItem>
                           </ListGroup>
                         </Row>
                       </CardBody>
@@ -108,7 +109,7 @@ const Events = () => {
                         <Row>
                           <ListGroup>
                             <ListGroupItem>Entry Fee:</ListGroupItem>
-                            <ListGroupItem>100</ListGroupItem>
+                            <ListGroupItem>{music.EntryFee}</ListGroupItem>
                           </ListGroup>
                         </Row>
                       </CardBody>
@@ -153,7 +154,7 @@ const Events = () => {
                         <Row>
                           <ListGroup>
                             <ListGroupItem>Entry Fee:</ListGroupItem>
-                            <ListGroupItem>300</ListGroupItem>
+                            <ListGroupItem>{Theatre.EntryFee}</ListGroupItem>
                           </ListGroup>
                         </Row>
                       </CardBody>
@@ -199,7 +200,7 @@ const Events = () => {
                         <Row>
                           <ListGroup>
                             <ListGroupItem>Entry Fee:</ListGroupItem>
-                            <ListGroupItem>100</ListGroupItem>
+                            <ListGroupItem>{data.EntryFee}</ListGroupItem>
                           </ListGroup>
                         </Row>
                       </CardBody>
@@ -244,7 +245,7 @@ const Events = () => {
                         <Row>
                           <ListGroup>
                             <ListGroupItem>Entry Fee:</ListGroupItem>
-                            <ListGroupItem>100</ListGroupItem>
+                            <ListGroupItem>{data.EntryFee}</ListGroupItem>
                           </ListGroup>
                         </Row>
                       </CardBody>
@@ -289,7 +290,53 @@ const Events = () => {
                         <Row>
                           <ListGroup>
                             <ListGroupItem>Entry Fee:</ListGroupItem>
-                            <ListGroupItem>300</ListGroupItem>
+                            <ListGroupItem>{data.EntryFee}</ListGroupItem>
+                          </ListGroup>
+                        </Row>
+                      </CardBody>
+
+                      <CardFooter className="text-center">
+                        <Button
+                          className="btn-simple"
+                          color="info"
+                          tag={Link}
+                          to={"/event/" + data.id}
+                        >
+                          Register
+                        </Button>
+                      </CardFooter>
+                    </Card>
+                  </Col>
+                ))}
+              </Row>
+              <Row>
+                <Col md="4">
+                  <hr className="line-info" />
+                  <h1>Fashion Show </h1>
+                </Col>
+              </Row>
+              <Row>
+                {EventsDataFashion.map((data) => (
+                  <Col md="4">
+                    <Card className="card-coin card-plain">
+                      {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/ripp.png").default}
+                    />
+                  </CardHeader> */}
+                      <CardBody>
+                        <Row>
+                          <Col className="text-center" md="12">
+                            <h4 className="text-uppercase">{data.label}</h4>
+                            <hr className="line-info" />
+                          </Col>
+                        </Row>
+                        <Row>
+                          <ListGroup>
+                            <ListGroupItem>Entry Fee:</ListGroupItem>
+                            <ListGroupItem>{data.EntryFee}</ListGroupItem>
                           </ListGroup>
                         </Row>
                       </CardBody>

@@ -45,21 +45,51 @@ const EventsComponent = (props) => {
                     </CardText>
                     <CardText>
                       <h3>
-                        3. No of Teams allowed per institution for this event:
+                        3. No of Teams allowed per institution for this event:{" "}
                         {result.NoTeams}
                       </h3>
                     </CardText>
+                    {result.rules.length ? (
+                      <CardText>
+                        <h3>
+                          4. Other Rules: <br />
+                          <ul>
+                            {result.rules.map((rule) => (
+                              <li>{rule}</li>
+                            ))}
+                          </ul>
+                        </h3>
+                      </CardText>
+                    ) : (
+                      ""
+                    )}
                     <CardText>
-                      <h3>4. Other Rules: {result.rules}</h3>
+                      <h2>
+                        Note : Upload payment receipt sent to your Mail ID in
+                        the google form link given{" "}
+                        <a
+                          href="https://forms.gle/d3omPWPNmc8dT5p16"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Google Forms link
+                        </a>
+                      </h2>
                     </CardText>
                   </CardBody>
                   <CardFooter className="d-flex justify-content-center flex-column">
                     <CardText>
-                      <h2>Event Amount : 100</h2>
+                      <h2>Event Amount : {result.EntryFee}</h2>
                     </CardText>
-                    <Button className="text-success">
-                      Register & Make Payment
-                    </Button>
+                    <a
+                      href={result.Link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button className="text-success">
+                        Register & Make Payment
+                      </Button>
+                    </a>
                   </CardFooter>
                 </Card>
               </Col>
