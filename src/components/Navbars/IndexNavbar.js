@@ -57,7 +57,12 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span className="h1-seo font-face-nt">Pranathi 2k22 </span>
+            <img
+              src={require("../../assets/img/pranathilogo.png").default}
+              alt=".."
+              width="70"
+            ></img>
+            <span className="h1-seo font-face-nt ml-3">Pranathi 2k22 </span>
           </NavbarBrand>
           <button
             aria-expanded={collapseOpen}

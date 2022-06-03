@@ -3,6 +3,7 @@ import Layout from "Layout/Layout";
 import { Link } from "react-router-dom";
 import {
   Button,
+  CardHeader,
   Card,
   //   CardHeader,
   CardBody,
@@ -40,7 +41,7 @@ const Members = () => {
                   {/* <CardHeader>
                     <img
                       alt="..."
-                      className="img-center img-fluid"
+                      className="rounded-circle"
                       src={require("assets/img/bitcoin.png").default}
                     />
                   </CardHeader> */}
@@ -196,6 +197,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Keerthana B</h4>
                         <hr className="line-primary" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/keerthana.png").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -231,6 +240,14 @@ const Members = () => {
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Praveena</h4>
                         <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/praveena.jpeg").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
@@ -268,6 +285,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Abhishek Bharadwaj</h4>
                         <hr className="line-info" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/abhi.jpg").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -299,6 +324,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Yashas G</h4>
                         <hr className="line-primary" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/yashas.jpg").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -328,6 +361,14 @@ const Members = () => {
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Rakesh S</h4>
                         <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/rakesh.png").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
@@ -360,6 +401,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Megha Pavan Kumar</h4>
                         <hr className="line-info" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/megha.jpeg").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -390,6 +439,14 @@ const Members = () => {
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Nidhisha Rao</h4>
                         <hr className="line-primary" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/nidhisha.jpeg").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
@@ -422,6 +479,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Syed Nahid</h4>
                         <hr className="line-success" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/nahid.jpeg").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -453,6 +518,14 @@ const Members = () => {
                         <h4 className="text-uppercase">K Chethan</h4>
                         <hr className="line-info" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/cheatan.png").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -483,6 +556,14 @@ const Members = () => {
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">P Sanjay</h4>
                         <hr className="line-primary" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/sanjay.jpeg").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
@@ -517,6 +598,14 @@ const Members = () => {
                         </h4>
                         <hr className="line-success" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/thanmay.jpeg").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -536,17 +625,21 @@ const Members = () => {
               <Col md="4">
                 <Card className="card-coin card-plain">
                   {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
+
                   </CardHeader> */}
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Inchara J A</h4>
                         <hr className="line-info" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/inchara.jpeg").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
@@ -578,6 +671,14 @@ const Members = () => {
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Sanjana Harish</h4>
                         <hr className="line-primary" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/sanjana.JPG").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
@@ -612,6 +713,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Harshith Gowda</h4>
                         <hr className="line-success" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/harshith.png").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -642,6 +751,14 @@ const Members = () => {
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Varun Gowda</h4>
                         <hr className="line-info" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/varun.png").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
@@ -674,6 +791,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Krutharth M</h4>
                         <hr className="line-primary" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/krutharth.jpg").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -705,6 +830,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Vinay M</h4>
                         <hr className="line-success" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/Vinay.png").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -723,18 +856,19 @@ const Members = () => {
               </Col>
               <Col md="4">
                 <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Vaibhavi S</h4>
                         <hr className="line-info" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/viab.png").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
