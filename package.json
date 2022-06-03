@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Vinay and Vaibhavi",
   "license": "MIT",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roverflow/pranathi-web.git"

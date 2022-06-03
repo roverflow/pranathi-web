@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import "./index.css";
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss?v=1.2.0";
@@ -20,7 +20,7 @@ import EventsComponent from "components/EventsComponent/EventsComponent";
 import GalleryPage from "pages/gallery/GalleryPage";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route exact path="/pranathi" render={() => <Home></Home>}></Route>
       <Route exact path="/events" render={() => <Events />}></Route>
@@ -35,6 +35,6 @@ ReactDOM.render(
       /> */}
       <Redirect from="/" to="/pranathi" />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
