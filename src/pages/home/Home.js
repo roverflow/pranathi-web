@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "Layout/Layout";
 import PageHeader from "components/PageHeader/PageHeader";
+import Sponsers from "components/Sponsers/Sponsers";
 
 const Home = () => {
   React.useEffect(() => {
@@ -14,6 +15,7 @@ const Home = () => {
     <div>
       <Layout>
         <PageHeader></PageHeader>
+        <Sponsers></Sponsers>
       </Layout>
     </div>
   );

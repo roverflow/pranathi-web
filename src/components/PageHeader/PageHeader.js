@@ -63,7 +63,6 @@ export default function PageHeader() {
           >
             Register For Our Events Now!
           </Button>
-
           {partyTime ? (
             <h3 className="d-none d-sm-block m-5">Event Day!</h3>
           ) : (

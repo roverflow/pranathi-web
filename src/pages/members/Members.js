@@ -51,6 +51,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Dr. Kishore G R</h4>
                         <hr className="line-primary" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/kishoresir.jpg").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -79,6 +87,14 @@ const Members = () => {
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Dr. Manoj Kumar M</h4>
                         <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/manojsir.jpeg").default}
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
@@ -109,6 +125,14 @@ const Members = () => {
                         <h4 className="text-uppercase">Mr. Rakesh B K</h4>
                         <hr className="line-info" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/rakeshsir.jpg").default}
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -135,6 +159,16 @@ const Members = () => {
                         <h4 className="text-uppercase">Mr. Madhukar</h4>
                         <hr className="line-primary" />
                       </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={
+                            require("assets/members/madhukarsir.jpg").default
+                          }
+                        />{" "}
+                      </Col>
                     </Row>
                     <Row>
                       <ListGroup>
@@ -160,6 +194,16 @@ const Members = () => {
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Ms. Deepthi Das</h4>
                         <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={
+                            require("assets/members/deepthidasmaam.jpg").default
+                          }
+                        />{" "}
                       </Col>
                     </Row>
                     <Row>
