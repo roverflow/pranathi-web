@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, CardText, Card, CardBody, Row, Col } from "reactstrap";
 import { SponserData } from "./SponsorData";
+import "./sponsor.css";
 
 const Sponsers = () => {
   return (
@@ -16,8 +17,10 @@ const Sponsers = () => {
       <Container>
         <Row>
           {SponserData.map((image) => (
-            <Col md="4">
-              <img src={image.img} alt=".." height="300" width="300"></img>
+            <Col md="4" className="gridx">
+              <div className="cardx">
+                <img src={image.img} alt=".."></img>
+              </div>
             </Col>
           ))}
         </Row>

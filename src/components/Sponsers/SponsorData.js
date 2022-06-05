@@ -6,7 +6,7 @@ export const SponserData = [
     img: require("assets/logos/newjaisa.png").default,
   },
   {
-    img: require("assets/logos/news18.jfif").default,
+    img: require("assets/logos/news18.png").default,
   },
   {
     img: require("assets/logos/Quantech.png").default,

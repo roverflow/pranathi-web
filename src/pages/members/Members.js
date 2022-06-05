@@ -246,7 +246,7 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={require("assets/members/keerthana.png").default}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444962/keerthana_qgsfvm.png`}
                         />{" "}
                       </Col>
                     </Row>
@@ -258,7 +258,7 @@ const Members = () => {
                         </ListGroupItem>
                         <ListGroupItem>
                           {" "}
-                          Assigned Wok: Convener & Decoration{" "}
+                          Assigned Work: Convener & Decoration{" "}
                         </ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -301,7 +301,7 @@ const Members = () => {
                         </ListGroupItem>
                         {/* <ListGroupItem></ListGroupItem> */}
                         <ListGroupItem>
-                          Assigned Work: Convener & Stalls
+                          Assigned Work: Convener & Sponsorship
                         </ListGroupItem>
                         <ListGroupItem></ListGroupItem>
                       </ListGroup>
@@ -411,7 +411,7 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={require("assets/members/rakesh.png").default}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444974/rakesh_ptm42m.png`}
                         />{" "}
                       </Col>
                     </Row>
@@ -567,7 +567,7 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={require("assets/members/cheatan.png").default}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444962/cheatan_tog3vk.png`}
                         />{" "}
                       </Col>
                     </Row>
@@ -613,7 +613,7 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Assigned Work:</ListGroupItem>
-                        <ListGroupItem>Hygiene Maintenance</ListGroupItem>
+                        <ListGroupItem>Publicity & Hospitality</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -647,7 +647,7 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={require("assets/members/thanmay.jpeg").default}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444968/thanmay_lqlkug.jpg`}
                         />{" "}
                       </Col>
                     </Row>
@@ -728,9 +728,7 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Assigned Work:</ListGroupItem>
-                        <ListGroupItem>
-                          Hospitality/Hygiene & Events
-                        </ListGroupItem>
+                        <ListGroupItem>Hospitality & Events</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -754,7 +752,7 @@ const Members = () => {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Harshith Gowda</h4>
+                        <h4 className="text-uppercase">Harshith Gowda S</h4>
                         <hr className="line-success" />
                       </Col>
                       <Col className="m-3">
@@ -762,14 +760,14 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={require("assets/members/harshith.png").default}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654445106/harshith_xdqzh4.jpg`}
                         />{" "}
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Assigned Work:</ListGroupItem>
-                        <ListGroupItem>Security</ListGroupItem>
+                        <ListGroupItem>Stalls and Sponsorship</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -801,14 +799,14 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={require("assets/members/varun.png").default}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444970/varun_xd1kuc.png`}
                         />{" "}
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Assigned Work:</ListGroupItem>
-                        <ListGroupItem>Security</ListGroupItem>
+                        <ListGroupItem>Security and Stalls</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -879,14 +877,14 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={require("assets/members/Vinay.png").default}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444968/Vinay_jy2o4p.png`}
                         />{" "}
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Assigned Work:</ListGroupItem>
-                        <ListGroupItem>Tech & Hygiene</ListGroupItem>
+                        <ListGroupItem>Tech & Hospitality</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -911,7 +909,7 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={require("assets/members/viab.png").default}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444970/viab_tlqv8l.png`}
                         />{" "}
                       </Col>
                     </Row>
