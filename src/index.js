@@ -19,6 +19,8 @@ import Members from "pages/members/Members";
 import EventsComponent from "components/EventsComponent/EventsComponent";
 import GalleryPage from "pages/gallery/GalleryPage";
 import { Aboutus } from "pages/Aboutus/Aboutus";
+import Policy from "pages/policy/Policy";
+import Contactus from "pages/contactus/Contactus";
 
 ReactDOM.render(
   <HashRouter>
@@ -29,6 +31,8 @@ ReactDOM.render(
       <Route exact path="/members" render={() => <Members />}></Route>
       <Route exact path="/Gallerypage" render={() => <GalleryPage />}></Route>
       <Route exact path="/aboutus" render={() => <Aboutus />}></Route>
+      <Route exact path="/policy" render={() => <Policy />}></Route>
+      <Route exact path="/contact" render={() => <Contactus />}></Route>
       <Route path="/event/:id" render={() => <EventsComponent />}></Route>
       {/* <Route
         path="/register-page"

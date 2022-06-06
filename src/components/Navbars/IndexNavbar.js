@@ -129,7 +129,7 @@ export default function IndexNavbar() {
                 data-placement="bottom"
                 tag={Link}
                 to="/aboutus"
-                title="View our Events"
+                title="About us"
               >
                 <i className="fab fa-website" />
                 AboutUs
@@ -177,6 +177,17 @@ export default function IndexNavbar() {
               >
                 <i className="fab fa-website" />
                 Gallery
+              </NavLink>
+            </NavItem>
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+                tag={Link}
+                to="/contact"
+                title="Contact Us"
+              >
+                <i className="fab fa-website" />
+                Contact
               </NavLink>
             </NavItem>
           </Nav>

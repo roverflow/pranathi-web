@@ -48,21 +48,23 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink to="/members">Contact Us</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://www.jyothyit.ac.in/">
-                  College Website
+                <NavLink to="/contact" tag={Link}>
+                  Contact Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/members" tag={Link}>
-                  Our Members
+                <NavLink to="/policy" tag={Link}>
+                  Terms and Conditions
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/rules" tag={Link}>
-                  Rules
+                <NavLink to="/policy" tag={Link}>
+                  Privacy and Policy
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/policy" tag={Link}>
+                  Refund Policy
                 </NavLink>
               </NavItem>
             </Nav>
