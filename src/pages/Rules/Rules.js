@@ -37,8 +37,28 @@ const Rules = () => {
                     </CardText>
                     <CardText>
                       <h3>
-                        5. If four teams are not registered event ill be called
-                        off.
+                        5. At least 4 registrations are compulsory for each
+                        event to be conducted. In case there are insufficient
+                        registrations, the event will be conducted but prizes
+                        will not be awarded.
+                      </h3>
+                    </CardText>
+                    <CardText>
+                      <h3>
+                        6. Number of participants for each event per institution
+                        is specified in the Event Rules.
+                      </h3>
+                    </CardText>
+                    <CardText>
+                      <h3>
+                        7. Shuttle service from Silk Institute metro station
+                        will be provided by the college.
+                      </h3>
+                    </CardText>
+                    <CardText>
+                      <h3>
+                        8. All participants must be present at the event by the
+                        mentioned time.
                       </h3>
                     </CardText>
                   </CardBody>

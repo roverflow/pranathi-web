@@ -45,24 +45,36 @@ const EventsComponent = (props) => {
                     </CardText>
                     <CardText>
                       <h3>
-                        3. No of Teams allowed per institution for this event:{" "}
-                        {result.NoTeams}
+                        3. Maximum no. of Teams allowed per institution for this
+                        event: {result.NoTeams}
                       </h3>
                     </CardText>
-                    {result.rules.length ? (
-                      <CardText>
-                        <h3>
-                          4. Other Rules: <br />
-                          <ul>
-                            {result.rules.map((rule) => (
-                              <li>{rule}</li>
-                            ))}
-                          </ul>
-                        </h3>
-                      </CardText>
-                    ) : (
-                      ""
-                    )}
+                    <CardText>
+                      <h3>4. When : {result.Time}</h3>
+                    </CardText>
+
+                    <CardText>
+                      <h3>
+                        5. Other Rules: <br />
+                        <ul>
+                          <li>ID Card is Compulsory</li>
+                          <li>
+                            Minimum 4 registrations compulsory for the event to
+                            be conducted
+                          </li>
+                          {result.rules.length ? (
+                            <div>
+                              {result.rules.map((rule) => (
+                                <li>{rule}</li>
+                              ))}
+                            </div>
+                          ) : (
+                            ""
+                          )}
+                        </ul>
+                      </h3>
+                    </CardText>
+
                     <CardText>
                       <h2>
                         Note : Upload payment receipt sent to your Mail ID in
