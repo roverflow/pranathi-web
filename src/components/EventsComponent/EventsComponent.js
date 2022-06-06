@@ -71,6 +71,7 @@ const EventsComponent = (props) => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
+                          {" "}
                           Google Forms link
                         </a>
                       </h2>

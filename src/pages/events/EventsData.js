@@ -18,7 +18,7 @@ export const EventsData = [
     NoTeams: "2",
     rules: [],
     Category: "Dance",
-    EntryFee: "500",
+    EntryFee: "300",
     Link: "https://rzp.io/l/WMuA79THh",
   },
   {
@@ -29,7 +29,7 @@ export const EventsData = [
     NoTeams: "2",
     rules: ["No Gender Restriction (M+M),(M+F),(F+F)"],
     Category: "Dance",
-    EntryFee: "300",
+    EntryFee: "200",
     Link: "https://rzp.io/l/ROMZcA1UxI",
   },
   {
@@ -172,12 +172,12 @@ export const EventsData = [
       "Judgement will be based on solely on vocals",
     ],
     Category: "Fine Arts",
-    EntryFee: "300",
+    EntryFee: "200",
     Link: "https://rzp.io/l/gItSYeDE",
   },
   {
     id: 13,
-    label: "Stand up comedy",
+    label: "The Gag spectacle",
     participants: "01",
     timeLimit: "3+2 Min",
     NoTeams: "2",
@@ -185,12 +185,12 @@ export const EventsData = [
       "Script should be submitted 30 min before tbe start of the eveng for verification",
     ],
     Category: "Theatre",
-    EntryFee: "150",
+    EntryFee: "100",
     Link: "https://rzp.io/l/GN45ZGEhC",
   },
   {
     id: 14,
-    label: "Skit",
+    label: "The (Un) scripted taless",
     participants: "11",
     timeLimit: "10 Min",
     NoTeams: "2",
@@ -204,7 +204,7 @@ export const EventsData = [
   },
   {
     id: 15,
-    label: "MadAds",
+    label: "JIT pe Bechde!",
     participants: "12",
     timeLimit: "6 Min",
     NoTeams: "2",
@@ -229,20 +229,20 @@ export const EventsData = [
     EntryFee: "200",
     Link: "https://rzp.io/l/D44AvAHqW",
   },
-  {
-    id: 17,
-    label: "Movie Making",
-    participants: "Max 3",
-    timeLimit: "Not Defiened",
-    NoTeams: "2",
-    rules: [],
-    Category: "Theatre",
-    EntryFee: "500",
-    Link: "https://rzp.io/l/OxLnwI8y2G",
-  },
+  // {
+  //   id: 17,
+  //   label: "Movie Making",
+  //   participants: "Max 3",
+  //   timeLimit: "Not Defiened",
+  //   NoTeams: "2",
+  //   rules: [],
+  //   Category: "Theatre",
+  //   EntryFee: "500",
+  //   Link: "https://rzp.io/l/OxLnwI8y2G",
+  // },
   {
     id: 18,
-    label: "Just a minute",
+    label: "Give Me A Minute",
     participants: "01",
     timeLimit: "1 Min",
     NoTeams: "2",
@@ -260,7 +260,7 @@ export const EventsData = [
   },
   {
     id: 19,
-    label: "Debate",
+    label: "Word Battle",
     participants: "02",
     timeLimit: "5 Min",
     NoTeams: "3",
@@ -277,7 +277,7 @@ export const EventsData = [
   },
   {
     id: 20,
-    label: "Dumb Charades",
+    label: "What's the pantomime?",
     participants: "03",
     timeLimit: "3 Rounds",
     NoTeams: "2",
@@ -292,7 +292,7 @@ export const EventsData = [
   },
   {
     id: 21,
-    label: "Quiz",
+    label: "Erudite Ambition",
     participants: "02",
     timeLimit: "",
     NoTeams: "2",
@@ -317,12 +317,12 @@ export const EventsData = [
       "Selected teams will participate in the finals.",
     ],
     Category: "Literary",
-    EntryFee: "150",
+    EntryFee: "200",
     Link: "https://rzp.io/l/sLxInDzqx",
   },
   {
     id: 23,
-    label: "Face Painting",
+    label: "Its all in the face!",
     participants: "02",
     timeLimit: "60 Min",
     NoTeams: "2",
@@ -337,7 +337,7 @@ export const EventsData = [
   },
   {
     id: 24,
-    label: "Creative Photography",
+    label: "Picture perfect through my lens",
     participants: "01",
     timeLimit: "No limit",
     NoTeams: "2",
@@ -354,7 +354,7 @@ export const EventsData = [
   },
   {
     id: 25,
-    label: "Collage",
+    label: "The Poster Project",
     participants: "02",
     timeLimit: "90 Min",
     NoTeams: "2",
@@ -366,7 +366,7 @@ export const EventsData = [
       "Participants will not be allowed to leave the hall during the event.",
     ],
     Category: "Fine Arts",
-    EntryFee: "150",
+    EntryFee: "200",
     Link: "https://rzp.io/l/cX7jNHHJ7",
   },
   {
@@ -401,7 +401,7 @@ export const EventsData = [
   },
   {
     id: 28,
-    label: "Treasure Hunt",
+    label: "Unleash your inner Indiana Jones",
     participants: "06",
     timeLimit: "No limit",
     NoTeams: "Open Event",
@@ -412,7 +412,18 @@ export const EventsData = [
   },
   {
     id: 29,
-    label: "BGMI",
+    label: "BGMI(solo)",
+    participants: "01",
+    timeLimit: "No limit",
+    NoTeams: "Open Event",
+    rules: ["Deatils Will be provided at the venue.", "Offline"],
+    Category: "Gaming",
+    EntryFee: "50",
+    Link: "https://rzp.io/l/E6dWmLM2Ao",
+  },
+  {
+    id: 30,
+    label: "BGMI(squad)",
     participants: "02",
     timeLimit: "No limit",
     NoTeams: "Open Event",
@@ -422,8 +433,8 @@ export const EventsData = [
     Link: "https://rzp.io/l/AECs0JvG",
   },
   {
-    id: 30,
-    label: "Fashion Show",
+    id: 31,
+    label: "Vogue Blooded",
     participants: "12",
     timeLimit: "10 Min",
     NoTeams: "3",
@@ -448,13 +459,13 @@ export const EventsDataDance = [
     id: 2,
     label: "Dance Classical Group",
     Category: "Dance",
-    EntryFee: "500",
+    EntryFee: "300",
   },
   {
     id: 3,
     label: "Duet Dance",
     Category: "Dance",
-    EntryFee: "300",
+    EntryFee: "200",
   },
   { id: 4, label: "Western Solo", Category: "Dance", EntryFee: "150" },
   {
@@ -497,38 +508,58 @@ export const EventsDataMusic = [
     Category: "Music",
     EntryFee: "500",
   },
-  { id: 12, label: "Duet Singing", Category: "Music", EntryFee: "300" },
+  { id: 12, label: "Duet Singing", Category: "Music", EntryFee: "200" },
 ];
 
 export const EventsDataTheater = [
-  { id: 13, label: "Stand-Up Comedy", Category: "Theater", EntryFee: "150" },
-  { id: 14, label: "Skit", Category: "Theater", EntryFee: "600" },
-  { id: 15, label: "Mad-Ads", Category: "Theater", EntryFee: "600" },
+  { id: 13, label: "The Gag Spectacle", Category: "Theater", EntryFee: "100" },
+  {
+    id: 14,
+    label: "The (Un)scripted tales!",
+    Category: "Theater",
+    EntryFee: "600",
+  },
+  { id: 15, label: "JIT pe Bechde!", Category: "Theater", EntryFee: "600" },
   { id: 16, label: "Short Movie Making", Category: "Theater", EntryFee: "200" },
-  { id: 17, label: "Movie Making", Category: "Theater", EntryFee: "500" },
+  // { id: 17, label: "Movie Making", Category: "Theater", EntryFee: "500" },
 ];
 
 export const EventsDataLiterary = [
-  { id: 18, label: "Just a Minute", Category: "Literary", EntryFee: "100" },
-  { id: 19, label: "Debate", Category: "Literary", EntryFee: "200" },
-  { id: 20, label: "Dum Charades", Category: "Literary", EntryFee: "300" },
-  { id: 21, label: "Quiz", Category: "Literary", EntryFee: "200" },
+  { id: 18, label: "Give Me A Minute", Category: "Literary", EntryFee: "100" },
+  { id: 19, label: "Word Battle", Category: "Literary", EntryFee: "200" },
+  {
+    id: 20,
+    label: "What's the pantomime?",
+    Category: "Literary",
+    EntryFee: "300",
+  },
+  { id: 21, label: "Erudite Ambition", Category: "Literary", EntryFee: "200" },
   {
     id: 22,
     label: "Antyakshari(Kannada)",
     Category: "Literary",
-    EntryFee: "150",
+    EntryFee: "200",
   },
 ];
 export const EventsDataFinearts = [
-  { id: 23, label: "Face Painting", Category: "Fine arts", EntryFee: "200" },
+  {
+    id: 23,
+    label: "Its all in the face!",
+    Category: "Fine arts",
+    EntryFee: "200",
+  },
   {
     id: 24,
-    label: "Creative Photography",
+    label: "Picture perfect through my lens",
     Category: "Fine arts",
     EntryFee: "100",
   },
-  { id: 25, label: "Collage", Category: "Fine arts", EntryFee: "150" },
+  {
+    id: 25,
+    label: "The Poster Project",
+    Category: "Fine arts",
+    EntryFee: "200",
+  },
 ];
 export const EventsDataGaming = [
   {
@@ -546,16 +577,22 @@ export const EventsDataGaming = [
   },
   {
     id: 29,
-    label: "BGMI",
-    participants: "02",
+    label: "BGMI(solo)",
+    participants: "01",
+    EntryFee: "50",
+  },
+  {
+    id: 30,
+    label: "BGMI(squad)",
+    participants: "04",
     EntryFee: "200",
   },
 ];
 
 export const EventsDataFashion = [
   {
-    id: 30,
-    label: "Fashion Show",
+    id: 31,
+    label: "Vogue Blooded",
     Category: "Gaming",
     EntryFee: "1400",
   },

@@ -40,7 +40,7 @@ const Events = () => {
               <Row>
                 <Col md="4">
                   <hr className="line-info" />
-                  <h1>Dance </h1>
+                  <h1>Pulse to the beat </h1>
                 </Col>
               </Row>
               <Row>
@@ -85,7 +85,7 @@ const Events = () => {
               <Row>
                 <Col md="4">
                   <hr className="line-info" />
-                  <h1>Music </h1>
+                  <h1>Heartbeat Melody </h1>
                 </Col>
               </Row>
               <Row>
