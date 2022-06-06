@@ -509,7 +509,7 @@ export const EventsDataDance = [
 export const EventsDataMusic = [
   {
     id: 6,
-    label: "Classic(Karnatic or Hindustani)",
+    label: "Classic(Carnatic or Hindustani)",
     Category: "Music",
     EntryFee: "150",
   },

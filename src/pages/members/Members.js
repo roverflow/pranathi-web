@@ -252,14 +252,8 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>
-                          {" "}
-                          Contact Number: 9620403128
-                        </ListGroupItem>
-                        <ListGroupItem>
-                          {" "}
-                          Assigned Work: Convener & Decoration{" "}
-                        </ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Convener & Decoration</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -296,13 +290,8 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>
-                          Contact Number: 8660719686
-                        </ListGroupItem>
-                        {/* <ListGroupItem></ListGroupItem> */}
-                        <ListGroupItem>
-                          Assigned Work: Convener & Sponsorship
-                        </ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Convener & Sponsorship</ListGroupItem>
                         <ListGroupItem></ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -340,7 +329,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Events & Security</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -379,7 +368,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Publicity & Photography</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -417,7 +406,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Publicity & Photography</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -456,7 +445,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Events & Hospitality</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -495,7 +484,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Events & Hospitality</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -534,7 +523,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Events & Security</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -573,7 +562,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Publicity & Hospitality</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -612,7 +601,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Publicity & Hospitality</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -653,7 +642,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Design & Publicity</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -688,7 +677,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Decoration & Design</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -727,7 +716,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Hospitality & Events</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -766,7 +755,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Stalls and Sponsorship</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -805,7 +794,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Security and Stalls</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -844,7 +833,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Security & Stalls</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -883,7 +872,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Tech & Hospitality</ListGroupItem>
                       </ListGroup>
                     </Row>
@@ -915,7 +904,7 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>Assigned Work:</ListGroupItem>
+                        <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Tech & Events</ListGroupItem>
                       </ListGroup>
                     </Row>

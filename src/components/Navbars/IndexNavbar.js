@@ -128,6 +128,17 @@ export default function IndexNavbar() {
               <NavLink
                 data-placement="bottom"
                 tag={Link}
+                to="/aboutus"
+                title="View our Events"
+              >
+                <i className="fab fa-website" />
+                AboutUs
+              </NavLink>
+            </NavItem>
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+                tag={Link}
                 to="/members"
                 title="View our members"
               >
