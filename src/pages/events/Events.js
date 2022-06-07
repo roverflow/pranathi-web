@@ -180,7 +180,7 @@ const Events = () => {
                 </Col>
               </Row>
               <Row>
-                {EventsDataLiterary.map((data) => (
+                {EventsDataLiterary.map((Literary) => (
                   <Col md="4">
                     <Card className="card-coin card-plain">
                       {/* <CardHeader>
@@ -193,14 +193,14 @@ const Events = () => {
                       <CardBody>
                         <Row>
                           <Col className="text-center" md="12">
-                            <h4 className="text-uppercase">{data.label}</h4>
+                            <h4 className="text-uppercase">{Literary.label}</h4>
                             <hr className="line-primary" />
                           </Col>
                         </Row>
                         <Row>
                           <ListGroup>
                             <ListGroupItem>Entry Fee:</ListGroupItem>
-                            <ListGroupItem>{data.EntryFee}</ListGroupItem>
+                            <ListGroupItem>{Literary.EntryFee}</ListGroupItem>
                           </ListGroup>
                         </Row>
                       </CardBody>
@@ -209,7 +209,7 @@ const Events = () => {
                           className="btn-simple"
                           color="primary"
                           tag={Link}
-                          to={"/event/" + data.id}
+                          to={"/event/" + Literary.id}
                         >
                           Register
                         </Button>
