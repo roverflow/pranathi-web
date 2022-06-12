@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from "Layout/Layout";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
-  Button,
-  CardHeader,
+  // Button,
+  // CardHeader,
   Card,
   //   CardHeader,
   CardBody,
@@ -15,8 +15,6 @@ import {
   Row,
   Col,
 } from "reactstrap";
-// import { EventsData } from "./EventsData";
-// import Footer from "components/Footer/Footer";
 
 const Members = () => {
   return (
@@ -898,7 +896,7 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444970/viab_tlqv8l.png`}
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1655051922/vaib_dpfphr.png`}
                         />{" "}
                       </Col>
                     </Row>
@@ -906,6 +904,40 @@ const Members = () => {
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Tech & Events</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Dhanush S</h4>
+                        <hr className="line-info" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1655050252/dhanush_cej5zl.jpg`}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>
+                          Video Editing & Hospitality
+                        </ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
