@@ -7,7 +7,7 @@ export const EventsData = [
     NoTeams: "3",
     rules: [],
     Category: "Dance",
-    EntryFee: "100",
+    EntryFee: "150",
     Time: "Day 2 (18-06-2022) 10 AM",
     Link: "https://rzp.io/l/WcHAFHWwd7",
   },
@@ -203,7 +203,7 @@ export const EventsData = [
   {
     id: 14,
     label: "The (Un) scripted tales (Skit)",
-    participants: "10 + 1 Narrator",
+    participants: "Max 12",
     timeLimit: "10 Min",
     NoTeams: "3",
     rules: [
@@ -218,7 +218,7 @@ export const EventsData = [
   {
     id: 15,
     label: "JIT pe Bechde! (MadAds)",
-    participants: "10 + 2 Narrator",
+    participants: "Max 10",
     timeLimit: "6 Min",
     NoTeams: "3",
     rules: [
@@ -235,7 +235,7 @@ export const EventsData = [
   {
     id: 16,
     label: "Short Movie Making",
-    participants: "2",
+    participants: "3",
     timeLimit: "-",
     NoTeams: "3",
     rules: [
@@ -298,7 +298,7 @@ export const EventsData = [
   {
     id: 20,
     label: "What's the pantomime? (Dumb Charades)",
-    participants: "02",
+    participants: "03",
     timeLimit: "3 Rounds",
     NoTeams: "3",
     rules: [
@@ -330,7 +330,7 @@ export const EventsData = [
   {
     id: 22,
     label: "Antyakshari (Kannada)",
-    participants: "03",
+    participants: "02",
     timeLimit: "",
     NoTeams: "3",
     rules: [
@@ -398,7 +398,7 @@ export const EventsData = [
   {
     id: 26,
     label: "Counter Strike",
-    participants: "05",
+    participants: "04",
     timeLimit: "No limit",
     NoTeams: "3",
     rules: [
@@ -430,7 +430,7 @@ export const EventsData = [
   {
     id: 28,
     label: "Unleash your inner Indiana Jones (Treasure Hunt)",
-    participants: "06",
+    participants: "04",
     timeLimit: "No limit",
     NoTeams: "3",
     rules: ["Details Will be provided at the venue.", "Offline"],
@@ -466,7 +466,7 @@ export const EventsData = [
   {
     id: 31,
     label: "Vogue Blooded",
-    participants: "12",
+    participants: "10-12",
     timeLimit: "10 Min",
     NoTeams: "3",
     rules: [
