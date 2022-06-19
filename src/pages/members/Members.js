@@ -832,7 +832,7 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Security & Stalls</ListGroupItem>
+                        <ListGroupItem>Events & Security</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
