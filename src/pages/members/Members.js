@@ -60,11 +60,47 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
+                        <ListGroupItem> Head of Cultural Dept.</ListGroupItem>
                         <ListGroupItem> CHIEF COORDINATOR</ListGroupItem>
+                        <ListGroupItem> Dept. of ISE</ListGroupItem>
                         <ListGroupItem>
                           {" "}
                           Contact Number: 9538460697{" "}
                         </ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+                  <CardFooter className="text-center"></CardFooter>
+                </Card>
+              </Col>{" "}
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/bitcoin.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Mr. Gurumurthy</h4>
+                        <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={`https://res.cloudinary.com/dyswgqiiz/image/upload/v1684392481/Mr.-Gurumurthy-M_wowtse.jpg`}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem> COORDINATOR</ListGroupItem>
+                        <ListGroupItem> Dept. of Mech</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -83,8 +119,42 @@ const Members = () => {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Dr. Manoj Kumar M</h4>
+                        <h4 className="text-uppercase">Mr. Ganesh C R</h4>
                         <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={`https://res.cloudinary.com/dyswgqiiz/image/upload/v1684390765/sr.jpg`}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem> COORDINATOR</ListGroupItem>
+                        <ListGroupItem> Dept. of Civil</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+                  <CardFooter className="text-center"></CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/bitcoin.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Dr. Manoj Kumar</h4>
+                        <hr className="line-info" />
                       </Col>
                       <Col className="m-3">
                         {" "}
@@ -97,44 +167,8 @@ const Members = () => {
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem> CHIEF COORDINATOR</ListGroupItem>
-                        <ListGroupItem>
-                          {" "}
-                          Contact Number: 9880210123{" "}
-                        </ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center"></CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/bitcoin.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Mr. Rakesh B K</h4>
-                        <hr className="line-info" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={require("assets/members/rakeshsir.jpg").default}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
                         <ListGroupItem>COORDINATOR</ListGroupItem>
+                        <ListGroupItem>Dept. of CSE</ListGroupItem>
                         {/* <ListGroupItem> Contact Number: 9538460697 </ListGroupItem> */}
                       </ListGroup>
                     </Row>
@@ -154,7 +188,7 @@ const Members = () => {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Mr. Madhukar</h4>
+                        <h4 className="text-uppercase">Mr. Nagaraj A</h4>
                         <hr className="line-primary" />
                       </Col>
                       <Col className="m-3">
@@ -162,15 +196,51 @@ const Members = () => {
                         <img
                           alt="..."
                           className="img-center img-fluid"
-                          src={
-                            require("assets/members/madhukarsir.jpg").default
-                          }
+                          src={`https://res.cloudinary.com/dyswgqiiz/image/upload/v1684409878/nagaraj_A_wxzriq.jpg`}
                         />{" "}
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
                         <ListGroupItem> COORDINATOR</ListGroupItem>
+                        <ListGroupItem> Dept. of CSE</ListGroupItem>
+                        {/* <ListGroupItem> Contact Number: 9538460697 </ListGroupItem> */}
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+                  <CardFooter className="text-center"></CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/bitcoin.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">
+                          Mr. Srinidhi Kulkarni
+                        </h4>
+                        <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={`https://res.cloudinary.com/dyswgqiiz/image/upload/v1684391546/Mr.-Srinidhi-Kulkarni_ho5wor.jpg`}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>COORDINATOR</ListGroupItem>
+                        <ListGroupItem>Dept. of CSE</ListGroupItem>
                         {/* <ListGroupItem> Contact Number: 9538460697 </ListGroupItem> */}
                       </ListGroup>
                     </Row>
@@ -207,6 +277,42 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>COORDINATOR</ListGroupItem>
+                        <ListGroupItem>Dept. of AIML</ListGroupItem>
+                        {/* <ListGroupItem> Contact Number: 9538460697 </ListGroupItem> */}
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+                  <CardFooter className="text-center"></CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/bitcoin.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Mr. Nagesh Kumar</h4>
+                        <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={`https://res.cloudinary.com/dyswgqiiz/image/upload/v1684391174/nageshk_hwjw8g.jpg`}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>COORDINATOR</ListGroupItem>
+                        <ListGroupItem>Dept. of ECE</ListGroupItem>
                         {/* <ListGroupItem> Contact Number: 9538460697 </ListGroupItem> */}
                       </ListGroup>
                     </Row>
@@ -224,44 +330,6 @@ const Members = () => {
               </Col>
             </Row>
             <Row>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/bitcoin.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Keerthana B</h4>
-                        <hr className="line-primary" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444962/keerthana_qgsfvm.png`}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Convener & Decoration</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
               <Col md="4">
                 <Card className="card-coin card-plain">
                   {/* <CardHeader>
@@ -290,7 +358,7 @@ const Members = () => {
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
                         <ListGroupItem>Convener & Sponsorship</ListGroupItem>
-                        <ListGroupItem></ListGroupItem>
+                        <ListGroupItem>Phone No: 8660719686</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -307,327 +375,14 @@ const Members = () => {
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
+                      src={require("assets/img/bitcoin.png").default}
                     />
                   </CardHeader> */}
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Abhishek Bharadwaj</h4>
-                        <hr className="line-info" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={require("assets/members/abhi.jpg").default}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Events & Security</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Yashas G</h4>
+                        <h4 className="text-uppercase">Thanmay Bharadwaj</h4>
                         <hr className="line-primary" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={require("assets/members/yashas.jpg").default}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Publicity & Photography</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Rakesh S</h4>
-                        <hr className="line-success" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444974/rakesh_ptm42m.png`}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Publicity & Photography</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Megha Pavan Kumar</h4>
-                        <hr className="line-info" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={require("assets/members/megha.jpeg").default}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Events & Hospitality</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Nidhisha Rao</h4>
-                        <hr className="line-primary" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={require("assets/members/nidhisha.jpeg").default}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Events & Hospitality</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Syed Nahid</h4>
-                        <hr className="line-success" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={require("assets/members/nahid.jpeg").default}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Events & Security</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">K Chethan</h4>
-                        <hr className="line-info" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444962/cheatan_tog3vk.png`}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Publicity & Hospitality</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">P Sanjay</h4>
-                        <hr className="line-primary" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={require("assets/members/sanjay.jpeg").default}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Publicity & Hospitality</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">
-                          Thanmay Bharadwaj J S
-                        </h4>
-                        <hr className="line-success" />
                       </Col>
                       <Col className="m-3">
                         {" "}
@@ -641,13 +396,13 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Design & Publicity</ListGroupItem>
+                        <ListGroupItem>Convener & Design</ListGroupItem>
+                        <ListGroupItem>Phone No: 9108517396</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
-
                   <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
+                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
                       Register
                     </Button> */}
                   </CardFooter>
@@ -676,52 +431,13 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Decoration & Design</ListGroupItem>
+                        <ListGroupItem>Design & Hospitality</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
 
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Sanjana Harish</h4>
-                        <hr className="line-primary" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={require("assets/members/sanjana.JPG").default}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Hospitality & Events</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
                       Register
                     </Button> */}
                   </CardFooter>
@@ -754,7 +470,7 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Stalls and Sponsorship</ListGroupItem>
+                        <ListGroupItem>Decoration and stalls</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -793,7 +509,7 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Security and Stalls</ListGroupItem>
+                        <ListGroupItem>Decoration and Stalls</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -832,84 +548,13 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Events & Security</ListGroupItem>
+                        <ListGroupItem>Documentation</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
 
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  {/* <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png").default}
-                    />
-                  </CardHeader> */}
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Vinay M</h4>
-                        <hr className="line-success" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1654444968/Vinay_jy2o4p.png`}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Tech & Hospitality</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
-                      Register
-                    </Button> */}
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Vaibhavi S</h4>
-                        <hr className="line-info" />
-                      </Col>
-                      <Col className="m-3">
-                        {" "}
-                        <img
-                          alt="..."
-                          className="img-center img-fluid"
-                          src={`https://res.cloudinary.com/dfz0sly3m/image/upload/v1655051922/vaib_dpfphr.png`}
-                        />{" "}
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>Tech & Events</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-
-                  <CardFooter className="text-center">
-                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
                       Register
                     </Button> */}
                   </CardFooter>
@@ -935,15 +580,351 @@ const Members = () => {
                     <Row>
                       <ListGroup>
                         <ListGroupItem>Role :</ListGroupItem>
-                        <ListGroupItem>
-                          Video Editing & Hospitality
-                        </ListGroupItem>
+                        <ListGroupItem>Video Editing</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
 
                   <CardFooter className="text-center">
                     {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Sampreeth</h4>
+                        <hr className="line-info" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/sampreeth.jpg").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Publicity Dept.</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Amrutha Manjunath</h4>
+                        <hr className="line-info" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/amrutha.jpg").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Decoration Dept.</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/ripp.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Sanjana Harish</h4>
+                        <hr className="line-primary" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/sanjana.JPG").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Documentation</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/ripp.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Anirudh M R</h4>
+                        <hr className="line-primary" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/anirudh.jpg").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Discipline Dept.</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/ripp.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Abhishek</h4>
+                        <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/abhi2.jpg").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Discipline Dept.</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/ripp.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Rakshith Gowda</h4>
+                        <hr className="line-info" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/rakshithg.jpg").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Poster Design</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/ripp.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Shishira S Bayari</h4>
+                        <hr className="line-primary" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/shishira.jpg").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Web & Events</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="primary" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/ripp.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Yashwanth B S</h4>
+                        <hr className="line-success" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/yash.jpg").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Publicity Dept.</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="success" tag={Link} to="/register-page">
+                      Register
+                    </Button> */}
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-coin card-plain">
+                  {/* <CardHeader>
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={require("assets/img/ripp.png").default}
+                    />
+                  </CardHeader> */}
+                  <CardBody>
+                    <Row>
+                      <Col className="text-center" md="12">
+                        <h4 className="text-uppercase">Prerana Sathish</h4>
+                        <hr className="line-info" />
+                      </Col>
+                      <Col className="m-3">
+                        {" "}
+                        <img
+                          alt="..."
+                          className="img-center img-fluid"
+                          src={require("assets/members/prerana.jpg").default}
+                        />{" "}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <ListGroup>
+                        <ListGroupItem>Role :</ListGroupItem>
+                        <ListGroupItem>Decoration Dept.</ListGroupItem>
+                      </ListGroup>
+                    </Row>
+                  </CardBody>
+
+                  <CardFooter className="text-center">
+                    {/* <Button className="btn-simple" color="info" tag={Link} to="/register-page">
                       Register
                     </Button> */}
                   </CardFooter>

@@ -62,7 +62,8 @@ export default function IndexNavbar() {
               alt=".."
               width="70"
             ></img>
-            <span className="h1-seo font-face-nt ml-3">Pranathi 2k22 </span>
+            <span className="h1-seo font-face-nt ml-3">Pranathi</span>
+            <span style={{ fontSize: "1.5rem" }}>2k23</span>
           </NavbarBrand>
           <button
             aria-expanded={collapseOpen}

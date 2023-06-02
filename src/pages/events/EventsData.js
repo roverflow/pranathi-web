@@ -8,8 +8,8 @@ export const EventsData = [
     rules: [],
     Category: "Dance",
     EntryFee: "150",
-    Time: "Day 2 (18-06-2022) 10 AM",
-    Link: "https://rzp.io/l/WcHAFHWwd7",
+    Time: "Day 1 (9-06-2023) 11 AM",
+    Link: "https://forms.gle/j63ZL5MhD3aGVcWn9",
   },
   {
     id: 2,

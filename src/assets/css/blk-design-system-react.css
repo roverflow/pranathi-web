@@ -12990,7 +12990,8 @@ textarea.form-control {
   .profile-page .card-coin .list-group {
     margin: 0 !important;
     text-align: left !important;
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.5); 
+  height: 25rem;}
   .profile-page .card .card-header .profile-title {
     top: 125px; }
 

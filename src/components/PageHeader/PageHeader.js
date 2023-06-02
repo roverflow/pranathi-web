@@ -13,7 +13,7 @@ export default function PageHeader() {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("06/17/2022 23:59:59");
+    const target = new Date("06/08/2023 23:59:59");
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -51,7 +51,10 @@ export default function PageHeader() {
       <div className="squares square7" />
       <Container>
         <div className="content-center brand">
-          <h1 className="h1-seo font-face-nt">Pranathi 2k22</h1>
+          <h1 className="h1-seo">
+            <span className="font-face-nt">Pranathi</span>
+            <br />2<span className="font-face-nt">k</span>23
+          </h1>
           <h3 className="d-none d-sm-block">Ode to Euphoria</h3>
           {/* <h4>Content Coming Soon..</h4> */}
           <Button

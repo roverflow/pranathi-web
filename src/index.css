@@ -1,9 +1,13 @@
 @font-face {
-  font-family: "NewTon";
-  src: local("NewTon"),
-    url("./assets/fonts/NewtonHowardFont.ttf") format("truetype");
+  font-family: "BattlesbridgeDemoRegular";
+  src: local("BattlesbridgeDemoRegular"),
+    url("./assets/fonts/BattlesbridgeDemoRegular.ttf") format("truetype");
 }
 
 .font-face-nt {
-  font-family: "NewTon";
+  font-family: "BattlesbridgeDemoRegular";
+}
+
+.card-coin {
+  height: 25rem;
 }
